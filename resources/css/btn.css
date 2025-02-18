@@ -1,0 +1,66 @@
+.btn-default {
+    @apply
+    bg-white hover:bg-gray-50 dark:bg-gray-900 dark:hover:bg-white/5
+    border theme-brand-border-color
+    focus:outline-none font-medium rounded-md flex;
+}
+
+.btn-primary {
+    @apply text-white
+    !bg-[var(--exx-primary-color)] hover:!bg-[var(--exx-hover-primary-color)]
+    font-medium rounded-md flex whitespace-nowrap focus:outline-none !ring-0;
+}
+
+.btn-light {
+    @apply !text-gray-900 dark:!text-[#c8d7e9]
+    !border-[var(--exx-border-color)] dark:!border-[var(--exx-dark-border-color)]
+    !bg-transparent hover:!bg-[#f9fafb] dark:hover:!bg-white/5
+    font-medium rounded-md flex whitespace-nowrap focus:outline-none !ring-0;
+}
+
+.btn-success {
+    @apply text-white
+    !bg-[var(--exx-success-color)] hover:!bg-[var(--exx-hover-success-color)]
+    font-medium rounded-md flex whitespace-nowrap focus:outline-none !ring-0;
+}
+
+.btn-dander {
+    @apply text-white
+    !bg-[var(--exx-danger-color)] hover:!bg-[var(--exx-hover-danger-color)]
+    font-medium rounded-md flex whitespace-nowrap focus:outline-none !ring-0;
+}
+
+.btn-success-outline {
+    @apply !text-[var(--exx-success-color)] hover:!text-white dark:!text-[var(--exx-success-color)]
+    border !border-[var(--exx-success-color)] dark:!border-[var(--exx-success-color)]
+    hover:!bg-[var(--exx-success-color)] dark:hover:!bg-[var(--exx-success-color)]
+    font-medium rounded-md flex whitespace-nowrap focus:outline-none !ring-0;
+}
+
+.btn-danger-outline {
+    @apply !text-[var(--exx-danger-color)] hover:!text-white dark:!text-[var(--exx-danger-color)]
+    border !border-[var(--exx-danger-color)] dark:!border-[var(--exx-danger-color)]
+    hover:!bg-[var(--exx-danger-color)] dark:hover:!bg-[var(--exx-danger-color)]
+    font-medium rounded-md flex whitespace-nowrap focus:outline-none !ring-0;
+}
+
+.btn-link {
+    @apply text-[var(--exx-primary-color)] dark:text-[var(--exx-dark-primary-color)];
+}
+
+.btn-green-link {
+    @apply text-[var(--exx-light-success-color)] dark:text-[var(--exx-dark-light-success-color)];
+}
+
+button.btn-link, a.btn-link {
+    @apply hover:text-[var(--exx-hover-primary-color)] hover:dark:text-[var(--exx-primary-color)];
+}
+
+.toggle-button {
+    @apply relative hidden sm:block ml-[24px] text-[var(--exx-sidebar-text-color)]
+}
+
+.toggle-button:before {
+    @apply bg-[var(--exx-border-color)] dark:bg-[var(--exx-dark-border-color)] absolute -top-[22px] -left-[25px] w-[1px] h-[64px];
+    content: '';
+}

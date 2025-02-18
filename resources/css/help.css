@@ -1,0 +1,7 @@
+.component p.mt-2.text-sm.text-gray-500 {
+    @apply dark:text-gray-400 text-gray-700 mt-1 text-xs
+}
+
+.component p.mt-2.text-sm.text-red-600 {
+    @apply mt-1 text-xs
+}
