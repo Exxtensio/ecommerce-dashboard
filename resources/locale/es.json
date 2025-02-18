@@ -1,0 +1,13 @@
+{
+    "Sign in to your account": "Inicio de sesión en la cuenta",
+    "Email": "Correo electrónico",
+    "Enter your email": "Ingrese su correo electrónico",
+    "Password": "Contraseña",
+    "Remember me": "Recordarme",
+    "Forgot password?": "¿Olvidaste tu contraseña?",
+    "Sign in": "Iniciar sesión",
+    "Don't have an account yet?": "¿Aún no tienes una cuenta?",
+    "Sign up": "Regístrate",
+    "An unexpected error occurred. Please try again later.": "Ocurrió un error inesperado. Por favor, inténtalo de nuevo más tarde.",
+    "CSRF token mismatch. Reload the page and try again.": "Desajuste del token CSRF. Recarga la página e inténtalo de nuevo."
+}

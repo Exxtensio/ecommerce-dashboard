@@ -1,0 +1,38 @@
+aside.sidebar {
+    @apply fixed top-0 left-0 z-10 h-screen pt-[65px] transition-transform -translate-x-full theme-brand-border-color border-r theme-brand-bg sm:translate-x-0;
+}
+
+aside.sidebar.full {
+    @apply w-64;
+}
+
+aside.sidebar.mini {
+    @apply w-[4.5rem];
+}
+
+aside.sidebar.mini ul li a {
+    @apply h-[41px] flex justify-center items-center;
+}
+
+aside.sidebar.mini ul li a svg {
+    @apply w-[24px] h-[24px];
+}
+
+aside.sidebar ul li a {
+    @apply flex items-center p-2 rounded-md text-[var(--exx-sidebar-text-color)] hover:bg-[var(--exx-sidebar-item-active-bg-color)] dark:hover:bg-[var(--exx-dark-sidebar-item-active-bg-color)];
+}
+
+aside.sidebar ul li a:hover svg,
+aside.sidebar ul li a.active svg,
+aside.sidebar ul li a:hover span,
+aside.sidebar ul li a.active span {
+     @apply text-[var(--exx-sidebar-item-active-text-color)] dark:text-[var(--exx-dark-sidebar-item-active-text-color)];
+}
+
+aside.sidebar ul li a.active {
+    @apply bg-[var(--exx-sidebar-item-active-bg-color)] dark:bg-[var(--exx-dark-sidebar-item-active-bg-color)];
+}
+
+aside.sidebar ul li a svg {
+    @apply flex-shrink-0 size-[22px] transition duration-75;
+}
