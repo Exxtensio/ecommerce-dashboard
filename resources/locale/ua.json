@@ -1,0 +1,13 @@
+{
+    "Sign in to your account": "Авторизація в акаунті",
+    "Email": "Email",
+    "Enter your email": "Введіть ваш email",
+    "Password": "Пароль",
+    "Remember me": "Запам'ятати мене",
+    "Forgot password?": "Забули пароль?",
+    "Sign in": "Увійти",
+    "Don't have an account yet?": "Ще не маєте акаунту?",
+    "Sign up": "Зареєструватися",
+    "An unexpected error occurred. Please try again later.": "Сталася неочікувана помилка. Будь ласка, спробуйте пізніше.",
+    "CSRF token mismatch. Reload the page and try again.": "Неспівпадіння CSRF-токена. Перезавантажте сторінку і спробуйте ще раз."
+}

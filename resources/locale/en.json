@@ -1,0 +1,13 @@
+{
+    "Sign in to your account": "Sign in to your account",
+    "Email": "Email",
+    "Enter your email": "Enter your email",
+    "Password": "Password",
+    "Remember me": "Remember me",
+    "Forgot password?": "Forgot password?",
+    "Sign in": "Sign in",
+    "Don't have an account yet?": "Don't have an account yet?",
+    "Sign up": "Sign up",
+    "An unexpected error occurred. Please try again later.": "An unexpected error occurred. Please try again later.",
+    "CSRF token mismatch. Reload the page and try again.": "CSRF token mismatch. Reload the page and try again."
+}

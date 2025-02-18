@@ -1,0 +1,29 @@
+label.truncate span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+.head-label span {
+    @apply text-xs font-extrabold text-gray-400 dark:text-gray-500 uppercase
+}
+
+.small-head-label {
+    @apply text-[10px] font-extrabold text-gray-400 dark:text-gray-500 uppercase
+}
+
+.child-label span {
+    @apply text-[var(--exx-text-color)] dark:text-[var(--exx-dark-text-color)]
+}
+
+.component.required:not(.textarea-field):not(.image-field):not(.badge-field) label:after,
+.component.required.detail-component.image-field label:after,
+.component.required.edit-component.image-field label span:after,
+.component.required.detail-component.badge-field label:after,
+.component.required.edit-component.badge-field label span:after,
+.component.required.textarea-field label > span:first-child:after
+{
+    content: " *";
+    color: #f05252;
+}
