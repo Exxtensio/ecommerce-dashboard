@@ -1,0 +1,72 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import './theme.css';
+@import './sidebar.css';
+@import './notification.css';
+@import './input-types.css';
+@import './btn.css';
+@import './errors.css';
+@import './modal.css';
+@import './popover.css';
+@import './help.css';
+@import 'vue-json-pretty/lib/styles.css';
+@import 'vue-multiselect/dist/vue-multiselect.min.css';
+
+@import "fields/fields.css";
+@import "filters/filters.css";
+
+.component input:not([type="checkbox"]):not([type="radio"]):not(#search):not(.multiselect__input),
+.component select
+{
+    @apply px-3 h-[40px]
+    text-[var(--exx-text-color)] dark:text-[var(--exx-dark-text-color)];
+}
+
+.component textarea {
+    @apply px-3 text-[var(--exx-text-color)] dark:text-[var(--exx-dark-text-color)];
+}
+
+.component input:not([type="checkbox"]):not([type="radio"]),
+.component select,
+.component textarea
+{
+    @apply !rounded-md;
+}
+
+.edit-component input:not([type="checkbox"]):not([type="radio"]) {
+    @apply
+    focus:outline-none text-sm
+    placeholder-gray-400 dark:placeholder-gray-500
+    border theme-brand-border-color focus:border-[var(--exx-primary-color)] dark:focus:border-[var(--exx-primary-color)]
+    bg-white dark:bg-[#111f31]
+    focus:!ring-0;
+}
+
+.edit-component select,
+.edit-component textarea
+{
+    @apply
+    focus:outline-none
+    dark:placeholder-gray-500
+    border theme-brand-border-color focus:border-[var(--exx-primary-color)] dark:focus:border-[var(--exx-primary-color)]
+    bg-white dark:bg-[#111f31]
+}
+
+.component.readonly input,
+.component.readonly textarea,
+.component.readonly select {
+    @apply
+    focus:outline-none
+    theme-brand-border-color focus:border-[var(--exx-border-color)] dark:focus:border-[var(--exx-dark-border-color)] bg-transparent cursor-auto !opacity-100;
+}
+
+.component.edit-component.error:not(.belong-to-field):not(.morph-one-field) label,
+.component.edit-component.error.belong-to-field label span,
+.component.edit-component.error.morph-one-field label span
+{
+    @apply dark:text-white
+}
