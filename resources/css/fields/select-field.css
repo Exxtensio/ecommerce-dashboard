@@ -1,0 +1,84 @@
+.select-field .multiselect .multiselect__tags,
+.morph-one-field .multiselect .multiselect__tags,
+.belong-to-field .multiselect .multiselect__tags
+{
+    @apply border theme-brand-border-color pl-3 rounded-md
+    bg-white dark:bg-[#111f31];
+}
+
+.select-field .multiselect .multiselect__tags .multiselect__input,
+.morph-one-field .multiselect .multiselect__tags .multiselect__input,
+.belong-to-field .multiselect .multiselect__tags .multiselect__input
+{
+    @apply text-[var(--exx-text-color)] dark:text-[var(--exx-dark-text-color)] pl-0 m-0;
+}
+
+.select-field .multiselect.multiselect--disabled,
+.morph-one-field .multiselect.multiselect--disabled,
+.belong-to-field .multiselect.multiselect--disabled
+{
+    @apply bg-transparent opacity-100;
+}
+
+.select-field .multiselect.multiselect--disabled .multiselect__tags,
+.morph-one-field .multiselect.multiselect--disabled .multiselect__tags,
+.belong-to-field .multiselect.multiselect--disabled .multiselect__tags
+{
+    @apply !bg-white dark:!bg-[#132337] theme-brand-border-color;
+}
+
+.select-field .multiselect .multiselect__single,
+.morph-one-field .multiselect .multiselect__single,
+.belong-to-field .multiselect .multiselect__single
+{
+    @apply bg-transparent text-sm pl-0 m-0
+    text-[var(--exx-text-color)] dark:text-[var(--exx-dark-text-color)];
+}
+
+.select-field .multiselect .multiselect__placeholder,
+.morph-one-field .multiselect .multiselect__placeholder,
+.belong-to-field .multiselect .multiselect__placeholder
+{
+    @apply text-sm dark:text-gray-500 mb-[9px] pt-0;
+}
+
+.select-field .multiselect .multiselect__content-wrapper,
+.morph-one-field .multiselect .multiselect__content-wrapper,
+.belong-to-field .multiselect .multiselect__content-wrapper
+{
+    @apply text-sm theme-brand-dropdown border-none !rounded-none text-[var(--exx-text-color)] dark:text-[var(--exx-dark-text-color)];
+}
+
+.select-field .multiselect .multiselect__content-wrapper .multiselect__option--highlight,
+.select-field .multiselect .multiselect__content-wrapper .multiselect__option--highlight:after,
+.morph-one-field .multiselect .multiselect__content-wrapper .multiselect__option--highlight,
+.morph-one-field .multiselect .multiselect__content-wrapper .multiselect__option--highlight:after,
+.belong-to-field .multiselect .multiselect__content-wrapper .multiselect__option--highlight,
+.belong-to-field .multiselect .multiselect__content-wrapper .multiselect__option--highlight:after
+{
+    @apply !bg-[var(--exx-success-color)];
+}
+
+.select-field .multiselect .multiselect__content-wrapper .multiselect__option,
+.morph-one-field .multiselect .multiselect__content-wrapper .multiselect__option,
+.belong-to-field .multiselect .multiselect__content-wrapper .multiselect__option
+{
+    @apply text-[.875rem];
+}
+
+.select-field .multiselect .multiselect__content-wrapper .multiselect__option:after,
+.morph-one-field .multiselect .multiselect__content-wrapper .multiselect__option:after,
+.belong-to-field .multiselect .multiselect__content-wrapper .multiselect__option:after
+{
+    @apply text-[.7rem];
+}
+
+.select-field .multiselect .multiselect__content-wrapper .multiselect__option--selected,
+.select-field .multiselect .multiselect__content-wrapper .multiselect__option--selected:after,
+.morph-one-field .multiselect .multiselect__content-wrapper .multiselect__option--selected,
+.morph-one-field .multiselect .multiselect__content-wrapper .multiselect__option--selected:after,
+.belong-to-field .multiselect .multiselect__content-wrapper .multiselect__option--selected,
+.belong-to-field .multiselect .multiselect__content-wrapper .multiselect__option--selected:after
+{
+    @apply !bg-[var(--exx-hover-success-color)] text-white dark:text-white;
+}
