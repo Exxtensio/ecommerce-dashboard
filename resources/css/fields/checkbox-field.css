@@ -1,0 +1,7 @@
+.component.checkbox-field label span {
+    @apply dark:text-white;
+}
+
+.component.checkbox-field label {
+    @apply gap-2;
+}
