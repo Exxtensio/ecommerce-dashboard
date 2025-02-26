@@ -1,0 +1,73 @@
+.select-filter .multiselect .multiselect__tags {
+    @apply border theme-brand-border-color pl-3 rounded-md
+    bg-white dark:bg-[#111f31];
+}
+
+.select-filter .multiselect .multiselect__tags {
+    @apply min-h-[36px] pt-[6px]
+}
+
+.select-filter .multiselect .multiselect__tags .multiselect__input {
+    @apply text-[var(--exx-text-color)] dark:text-[var(--exx-dark-text-color)] pl-0 m-0;
+}
+
+.select-filter .multiselect {
+    @apply h-[36px] min-h-[36px];
+}
+
+.select-filter .multiselect .multiselect__tags .multiselect__input {
+    @apply text-xs mt-[1px];
+}
+
+.select-filter .multiselect.multiselect--disabled {
+    @apply bg-transparent opacity-100;
+}
+
+.select-filter .multiselect.multiselect--disabled .multiselect__tags {
+    @apply !bg-white dark:!bg-[#132337] theme-brand-border-color;
+}
+
+.select-filter .multiselect .multiselect__single {
+    @apply bg-transparent text-sm pl-0 m-0
+    text-[var(--exx-text-color)] dark:text-[var(--exx-dark-text-color)];
+}
+
+.select-filter .multiselect .multiselect__single {
+    @apply text-xs mt-[3px];
+}
+
+.select-filter .multiselect .multiselect__placeholder {
+    @apply text-xs dark:text-gray-500 mb-[7px] pt-0;
+}
+
+.select-filter .multiselect .multiselect__content-wrapper {
+    @apply text-sm theme-brand-dropdown border-none !rounded-none text-[var(--exx-text-color)] dark:text-[var(--exx-dark-text-color)];
+}
+
+.select-filter .multiselect .multiselect__content-wrapper {
+    @apply text-xs theme-brand-dropdown border-none !rounded-none text-[var(--exx-text-color)] dark:text-[var(--exx-dark-text-color)];
+}
+
+.select-filter .multiselect .multiselect__content-wrapper .multiselect__option--highlight,
+.select-filter .multiselect .multiselect__content-wrapper .multiselect__option--highlight:after
+{
+    @apply !bg-[var(--exx-success-color)];
+}
+
+.select-filter .multiselect .multiselect__content-wrapper .multiselect__option {
+    @apply text-[.75rem] p-[10px] min-h-[36px];
+}
+
+.select-filter .multiselect .multiselect__content-wrapper .multiselect__option:after {
+    @apply text-[.7rem];
+}
+
+.select-filter .multiselect .multiselect__content-wrapper .multiselect__option:after {
+    @apply text-[.6rem] leading-[36px];
+}
+
+.select-filter .multiselect .multiselect__content-wrapper .multiselect__option--selected,
+.select-filter .multiselect .multiselect__content-wrapper .multiselect__option--selected:after
+{
+    @apply !bg-[var(--exx-hover-success-color)] text-white dark:text-white;
+}
