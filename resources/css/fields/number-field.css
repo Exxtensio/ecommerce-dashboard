@@ -1,0 +1,16 @@
+.number-field:not(.detail-component) {
+    @apply min-w-[180px] max-w-[240px]
+}
+
+.number-field > div:first-child > div > div:first-child {
+    overflow: unset;
+    @apply w-auto p-0 pointer-events-auto;
+}
+
+.number-field:not(.detail-component) > div:first-child > div > input {
+    @apply ml-[39px] mr-[40px] text-center !rounded-none z-10;
+}
+
+.number-field > div:first-child > div > input + div {
+    @apply right-[1px] top-0;
+}
