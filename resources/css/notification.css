@@ -1,0 +1,31 @@
+.notification .message-block ul {
+    @apply text-sm
+}
+
+.top-fade-enter-active {
+    transition: top 0.3s ease-out;
+}
+
+.top-fade-leave-active {
+    transition: top 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.top-fade-enter-from,
+.top-fade-leave-to {
+    top: -100px;
+    opacity: 0;
+}
+
+.bottom-fade-enter-active {
+    transition: bottom 0.3s ease-out;
+}
+
+.bottom-fade-leave-active {
+    transition: bottom 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.bottom-fade-enter-from,
+.bottom-fade-leave-to {
+    bottom: -100px;
+    opacity: 0;
+}
