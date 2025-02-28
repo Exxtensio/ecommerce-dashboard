@@ -1,0 +1,95 @@
+.dashboard .item {
+    @apply flex p-6 items-baseline justify-center rounded-md theme-brand-bg
+}
+
+.dashboard .item.type-total {
+    @apply h-[170px]
+}
+
+.dashboard .item.type-horizontal-chart {
+    @apply h-[500px] pb-[40px]
+}
+
+.dashboard .item.type-pie-chart {
+    @apply h-[500px] pb-[50px]
+}
+
+.dashboard .item.type-3 {
+    @apply col-span-3 h-[24rem]
+}
+
+.dp__theme_dark {
+    --dp-font-size: .85rem !important;
+    --dp-background-color: #111f31 !important;
+    --dp-range-between-dates-background-color: #1c2e45 !important;
+    --dp-primary-color: var(--exx-primary-color) !important;
+    --dp-hover-color: #1c2e45 !important;
+    --dp-disabled-color: #1c2e45 !important;
+}
+
+.dp__theme_light {
+    --dp-font-size: .85rem !important;
+    --dp-background-color: white !important;
+    --dp-range-between-dates-background-color: #f1f5f9 !important;
+    --dp-primary-color: var(--exx-primary-color) !important;
+    --dp-hover-color: #f1f5f9 !important;
+    --dp-disabled-color: #f1f5f9 !important;
+}
+
+.dp__btn .dp__icon {
+    @apply !text-gray-500 dark:!text-gray-500 w-[18px] stroke-none
+}
+
+.dp__button.dp__overlay_action {
+    @apply !h-[28px]
+}
+
+.dp__action_cancel {
+    @apply btn-light
+}
+
+.dp__action_select {
+    @apply btn-primary
+}
+
+.dashboard .dp__main.search-field .dp__input_wrap {
+    @apply relative
+}
+
+.dashboard .dp__main .dp__selection_preview {
+    @apply hidden
+}
+
+.dashboard .dp__main.search-field .dp__input_wrap div {
+    @apply absolute left-0 !top-[1px] w-[40px]
+}
+
+.dashboard .dp__main.search-field .dp__input_wrap div svg {
+    @apply !text-gray-500 dark:!text-gray-500
+}
+
+.dashboard .dp__main.search-field .dp__input_wrap input {
+    @apply !pl-[50px]
+}
+
+.dashboard .ag-charts-wrapper {
+    @apply !w-full !h-full;
+}
+
+.dashboard .exx-simple-line-card .scrollable-grid {
+    @apply pt-[15px];
+}
+
+.dashboard .scrollable-grid > div:first-child {
+    @apply min-w-[560px];
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}

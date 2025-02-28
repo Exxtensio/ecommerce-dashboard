@@ -1,0 +1,6 @@
+@import "boolean-filter.css";
+@import "select-filter.css";
+
+.text-filter input {
+    @apply !h-[36px] !text-[.75rem]
+}
