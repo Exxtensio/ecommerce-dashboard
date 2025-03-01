@@ -1,0 +1,65 @@
+:root {
+    --exx-primary-color: #3b82f6;
+    --exx-hover-primary-color: #2563eb;
+    --exx-dark-primary-color: #60a5fa;
+    --exx-success-color: #249782;
+    --exx-hover-success-color: #208875;
+    --exx-danger-color: #ef4444;
+    --exx-hover-danger-color: #dc2626;
+
+    --exx-light-success-color: #16a34a;
+    --exx-dark-light-success-color: #4ade80;
+
+    --exx-bg-color: #f1f5f9;
+    --exx-second-bg-color: #fff;
+    --exx-text-color: #64748b;
+    --exx-border-color: #e2e8f0;
+    --exx-dropdown-bg-color: #fff;
+    --exx-dropdown-divide-color: #e2e8f0;
+    --exx-sidebar-text-color: #64748b;
+    --exx-sidebar-item-active-bg-color: #f1f5f9;
+    --exx-sidebar-item-active-text-color: #64748b;
+
+    --exx-dark-bg-color: #0f1824;
+    --exx-dark-second-bg-color: #132337;
+    --exx-dark-text-color: #c8d7e9;
+    --exx-dark-border-color: #233a57;
+    --exx-dark-dropdown-bg-color: #1c2e45;
+    --exx-dark-dropdown-divide-color: #233a57;
+    --exx-dark-sidebar-item-active-bg-color: #1c2e45;
+    --exx-dark-sidebar-item-active-text-color: #fff;
+}
+
+html, html body {
+    @apply bg-[var(--exx-dark-bg-color)] text-[var(--exx-dark-text-color)];
+}
+
+html.dark, html.dark body {
+    @apply bg-[var(--exx-dark-bg-color)] text-[var(--exx-dark-text-color)];
+}
+
+html.light, html.light body {
+    @apply bg-[var(--exx-bg-color)] text-[var(--exx-text-color)];
+}
+
+.theme-brand-bg {
+    @apply bg-[var(--exx-second-bg-color)] dark:bg-[var(--exx-dark-second-bg-color)];
+}
+
+.theme-brand-border-color {
+    @apply border-[var(--exx-border-color)] dark:border-[var(--exx-dark-border-color)];
+}
+
+.theme-brand-dropdown {
+    @apply bg-[var(--exx-dropdown-bg-color)] dark:bg-[var(--exx-dark-dropdown-bg-color)]
+    rounded-md shadow-md !m-0
+    divide-y divide-[var(--exx-dropdown-divide-color)] dark:divide-[var(--exx-dark-dropdown-divide-color)];
+}
+
+.theme-brand-dropdown ul li button {
+    @apply block w-full text-left px-4 py-2 text-sm hover:bg-[var(--exx-sidebar-item-active-bg-color)] dark:text-gray-300 dark:hover:bg-white/5 dark:hover:text-white;
+}
+
+.theme-brand-dropdown ul.notifications li {
+    @apply rounded-md w-full text-left p-2 text-xs hover:bg-[var(--exx-sidebar-item-active-bg-color)] dark:text-gray-300 dark:hover:bg-white/5 dark:hover:text-white;
+}
