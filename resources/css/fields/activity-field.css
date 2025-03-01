@@ -1,0 +1,41 @@
+.vjs-tree {
+    @apply text-[11px];
+}
+
+.vjs-indent {
+    @apply items-center;
+}
+
+.timeline.opened {
+    margin-bottom: 1rem !important;
+}
+
+.timeline.closed {
+    margin-bottom: 1.5rem !important;
+}
+
+.component.activity-field .activity-field-table {
+   box-shadow: none !important;
+    @apply !rounded-md border theme-brand-border-color;
+}
+
+.activity-field-table table {
+    @apply text-[var(--exx-text-color)] dark:text-[var(--exx-dark-text-color)];
+}
+
+.activity-field-table table thead {
+    @apply bg-[#f5f7f9] dark:bg-[#1c2e45] text-[var(--exx-text-color)] dark:text-[var(--exx-dark-text-color)] border-b theme-brand-border-color;
+}
+
+.activity-field-table table thead tr th:not(:last-child),
+.activity-field-table table tbody tr td:not(:last-child) {
+    @apply border-r theme-brand-border-color;
+}
+
+.activity-field-table table tbody tr {
+    @apply bg-transparent dark:bg-transparent;
+}
+
+.activity-field-table table tbody tr td {
+    @apply first:text-[var(--exx-text-color)] first:dark:text-[var(--exx-dark-text-color)] px-6 py-3;
+}
