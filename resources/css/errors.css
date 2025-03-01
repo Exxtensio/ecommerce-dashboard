@@ -1,0 +1,11 @@
+.file-error label span, .textarea-error label > span:first-child {
+    @apply text-red-700 dark:text-red-500;
+}
+
+.file-error label input[type="file"]::file-selector-button {
+    @apply bg-red-700 dark:bg-red-600;
+}
+
+/*.file-error label input {*/
+/*    @apply text-red-900 dark:text-red-500;*/
+/*}*/

@@ -1,0 +1,270 @@
+<template>
+    <div class="mx-6 mb-14 rounded-md theme-brand-bg overflow-hidden shadow dark:shadow-none">
+        <exx-pagination v-if="dataToShow.length" :meta="meta"/>
+        <div class="overflow-x-auto">
+            <table
+                class="w-full text-sm text-left border-t theme-brand-border-color"
+                :class="{'min-w-[1400px]': dataToShow.length}"
+            >
+                <thead class="text-xs uppercase whitespace-nowrap theme-brand-border-color border-b  bg-[#f8fafc] dark:bg-[#1c2e45]">
+                    <tr v-if="!dataToShow.length" class="h-[48.5px]">
+                        <th colspan="100%"></th>
+                    </tr>
+                    <tr v-else>
+                        <th scope="col" class="ps-6 pe-6 py-4 w-20">
+                            <div class="flex items-center">
+                                <input
+                                    id="checkbox-all"
+                                    type="checkbox"
+                                    @input="selectAll"
+                                    :checked="isCheckedAll()"
+                                >
+                                <label for="checkbox-all" class="sr-only">checkbox</label>
+                            </div>
+                        </th>
+                        <th
+                            scope="col"
+                            class="pe-4 py-4"
+                            :class="{
+                                'text-center': column.component === 'image-field'
+                            }"
+                            v-for="column in columns"
+                        >{{ column.name }}</th>
+                        <th scope="col" class="pe-6 py-4">
+                            <span class="sr-only">{{ $t('Actions') }}</span>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody :class="{'whitespace-nowrap': dataToShow.length}">
+                <tr v-if="!dataToShow.length">
+                    <td colspan="100%" class="w-full px-4 py-4">
+                        <div class="flex flex-col justify-center items-center text-center space-y-4">
+                            <div class="flex flex-col justify-center items-center text-center space-y-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 0 0 5.636 5.636m12.728 12.728A9 9 0 0 1 5.636 5.636m12.728 12.728L5.636 5.636"/>
+                                </svg>
+                                <span class="text-lg">{{ $t('Data not found') }}</span>
+                                <span class="max-w-[280px]">{{ $t('Your selection did not match any data') }}</span>
+                            </div>
+                            <exx-add-button/>
+                        </div>
+                    </td>
+                </tr>
+                <tr
+                    class="hover:bg-[#f8fafc] dark:hover:bg-[#17283e]"
+                    :class="{'border-b theme-brand-border-color': index !== dataToShow.length - 1}"
+                    v-for="(item, index) in dataToShow"
+                >
+                    <td class="ps-6 pe-6 py-4 w-20">
+                        <div class="flex items-center">
+                            <input
+                                :id="`checkbox-table-${getId(item)}`"
+                                type="checkbox"
+                                :class="{
+                                    'opacity-30': getLocked(item)
+                                }"
+                                :disabled="getLocked(item)"
+                                v-bind="getLocked(item) ? { onInput: (event) => event.preventDefault() } : { onInput: (event) => select(event, getId(item)) }"
+                                :checked="isChecked(getId(item))"
+                            >
+                            <label :for="`checkbox-table-${getId(item)}`" class="sr-only">checkbox</label>
+                        </div>
+                    </td>
+
+                    <component
+                        v-for="i in item"
+                        class="component index-component pe-4"
+                        :key="`${i.component}-${getId(item)}`"
+                        :is="resolveComponent(i.component, 'index')"
+                        :class="[{
+                            'py-5': i.component !== 'image-field' && i.component !== 'gallery-field'
+                        }, i.component]"
+                        v-bind="{
+                            ...(i.component === 'id-field' ? { isDeleted: isDeleted(item) } : {}),
+                            ...(i.component === 'activity-field' ? { event: getEvent(item) } : {}),
+                            ...(i.dependOn ? { dependOnComponent: dependComponent(item, i.dependOn) } : {})
+                        }"
+                        :field="i"
+                    />
+
+                    <td class="pe-6 py-4">
+                        <div class="flex items-center justify-end space-x-2">
+                            <fwb-button
+                                v-if="can(getId(item), 'canPreview') && !isDeleted(item)"
+                                size="xs"
+                                color="light"
+                                class="btn-light"
+                                @click="$router.visit(getResourceUrl(getId(item)))"
+                            >
+                                {{ $t('Preview') }}
+                            </fwb-button>
+                            <fwb-button
+                                v-if="can(getId(item), 'canEdit') && !isDeleted(item)"
+                                :disabled="getLocked(item)"
+                                size="xs"
+                                class="btn-primary"
+                                color="default"
+                                @click="$router.visit(getResourceUrl(getId(item) + '/edit'))"
+                                v-bind="getLocked(item) ? { onClick: (event) => event.preventDefault() } : {}"
+                            >
+                                {{ $t('Edit') }}
+                            </fwb-button>
+                            <fwb-button
+                                v-if="can(getId(item), 'canDelete') && !isDeleted(item)"
+                                :disabled="getLocked(item)"
+                                size="xs"
+                                class="btn-dander"
+                                color="red"
+                                @click="deleteResource(item)"
+                                v-bind="getLocked(item) ? { onClick: (event) => event.preventDefault() } : {}"
+                            >
+                                {{ $t('Delete') }}
+                            </fwb-button>
+                            <fwb-button
+                                v-if="isDeleted(item)"
+                                :disabled="getLocked(item)"
+                                size="xs"
+                                class="btn-success-outline"
+                                color="green"
+                                v-bind="getLocked(item) ? { onClick: (event) => event.preventDefault() } : { onClick: () => restoreResource(item) }"
+                                outline
+                            >
+                                {{ $t('Restore') }}
+                            </fwb-button>
+                            <fwb-button
+                                v-if="isDeleted(item)"
+                                :disabled="getLocked(item)"
+                                size="xs"
+                                class="btn-danger-outline"
+                                color="red"
+                                @click="forceDeleteResource(item)"
+                                outline
+                                v-bind="getLocked(item) ? { onClick: (event) => event.preventDefault() } : {}"
+                            >
+                                {{ $t('Force Delete') }}
+                            </fwb-button>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</template>
+
+<script>
+import Base from "@/mixins/Base.js";
+import Depend from "@/mixins/Depend.js";
+
+export default {
+    mixins: [Base, Depend],
+    methods: {
+        async deleteResource(item) {
+            await this.$axios.delete(this.getResourceUrl(this.getId(item)))
+                .then(response => {
+                    this.emitter.emit('notify', {
+                        type: 'success',
+                        message: this.$t('{singularLabel} deleted successfully', {singularLabel: this.singularLabel})
+                    })
+                    this.$router.visit(this.getResourceUrl(''))
+                })
+        },
+        async forceDeleteResource(item) {
+            await this.$axios.delete(this.getResourceUrl(this.getId(item) + '/force'))
+                .then(response => {
+                    this.emitter.emit('notify', {
+                        type: 'success',
+                        message: this.$t('{singularLabel} force deleted successfully', {singularLabel: this.singularLabel})
+                    })
+                    this.$router.visit(this.getResourceUrl(''))
+                })
+        },
+        async restoreResource(item) {
+            await this.$axios.put(this.getResourceUrl(this.getId(item) + '/restore'))
+                .then(response => {
+                    this.emitter.emit('notify', {
+                        type: 'success',
+                        message: this.$t('{singularLabel} restored successfully', {singularLabel: this.singularLabel})
+                    })
+                    this.$router.visit(this.getResourceUrl(''))
+                })
+        },
+        isChecked(id) {
+            return this[`$${this.prefix}Store`].selected.includes(id)
+        },
+        isCheckedAll() {
+            const array = this.data.map(item => this.getId(item));
+            const selected = this[`$${this.prefix}Store`].selected;
+            return array.every(id => selected.includes(id));
+        },
+        selectAll(e) {
+            const array = this.data.map(item => this.getIdExcludeLock(item));
+            if (e.target.checked) this[`$${this.prefix}Store`].setSelected(array.filter(Boolean));
+            else if (!e.target.checked) this[`$${this.prefix}Store`].removeSelected(array.filter(Boolean));
+        },
+        select(e, id) {
+            if (e.target.checked) this[`$${this.prefix}Store`].setSelected([id]);
+            else if (!e.target.checked) this[`$${this.prefix}Store`].removeSelected([id]);
+        },
+        getId(fields) {
+            return fields.filter(i => i.component === 'id-field')[0].value
+        },
+        getIdExcludeLock(fields) {
+            let el = fields.filter(i => i.component === 'id-field')[0];
+            return !el.locked ? el.value : null
+        },
+        getLocked(fields) {
+            return fields.filter(i => i.component === 'id-field')[0].locked
+        },
+        getEvent(fields) {
+            return fields.filter(i => i.attribute === 'event')[0].value || null
+        },
+        isDeleted(fields) {
+            const array = fields.filter(i => i.attribute === 'deleted_at')
+            return !!(array && array.length && array[0].value);
+        }
+    },
+    mounted() {
+        this.$echo.channel(`eloquent.${this.prefix}`)
+            .listen('.locked', (e) => {
+                if(this.auth.id !== e.userId) {
+                    let el = this.dataToShow.find(group => group.some(item => item.component === "id-field" && item.value === e.id))
+                    if(el) el[0].locked = true
+
+                    this[`$${this.prefix}Store`].removeSelected([e.id])
+                }
+            })
+            .listen('.unlocked', (e) => {
+                let el = this.dataToShow.find(group => group.some(item => item.component === "id-field" && item.value === e.id))
+                if(el) el[0].locked = false
+            })
+    },
+    unmounted() {
+        this.$echo.leaveChannel(`eloquent.${this.prefix}`)
+    },
+    computed: {
+        columns() {
+            return this.dataToShow[0]
+        },
+        dataToShow() {
+            return this.$resourceStore.searchEnabled
+                ? this.$resourceStore.searchData.map(item => {
+                    return item.filter(i => i.showOnIndex)
+                })
+                : this.$resourceStore.data.map(item => {
+                    return item.filter(i => i.showOnIndex)
+                })
+        },
+        data() {
+            return this.$resourceStore.searchEnabled
+                ? this.$resourceStore.searchData
+                : this.$resourceStore.data
+        },
+        meta() {
+            return this.$resourceStore.searchEnabled
+                ? this.$resourceStore.searchMeta
+                : this.$resourceStore.meta
+        }
+    }
+}
+</script>

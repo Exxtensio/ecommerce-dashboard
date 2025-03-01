@@ -1,0 +1,21 @@
+.approved-modal .h-modal > div:first-child > div:first-child {
+    @apply theme-brand-bg !rounded-md;
+}
+
+.approved-modal > div:first-child {
+    @apply !bg-black/40;
+}
+
+/*.h-modal > div:first-child > div:first-child > div:nth-child(2) {*/
+/*    max-height: calc(100vh - 300px);*/
+/*    overflow-y: auto;*/
+/*}*/
+
+/*.h-modal > div:first-child > div:first-child > div:first-child, .h-modal > div:first-child > div:first-child > div:last-child {*/
+/*    @apply theme-brand-border-color*/
+/*}*/
+
+.approved-modal .h-modal > div:first-child > div:first-child > div:nth-child(3) {
+    border: 0 !important;
+    padding-top: 0 !important;
+}
