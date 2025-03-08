@@ -1,0 +1,1 @@
+import"./0f8de393.js";import{g as o}from"./c90bc5ac.js";import{c as r}from"./bae0df5e.js";var t=o,e=r,p=e([t("%String.prototype.indexOf%")]),f=function(o,r){var f=t(o,!!r);return"function"==typeof f&&p(o,".prototype.")>-1?e([f]):f};export{f as c};
