@@ -1,0 +1,2994 @@
+[
+    {
+        "name": "Afar",
+        "name_local": "Afar",
+        "iso_639_1": "aa",
+        "iso_639_2": "aar",
+        "iso_639_3": "aar",
+        "countries": [
+            {
+                "name": "Eritrea",
+                "name_local": "ኤርትራ Ertra / إرتريا Iritriyyā",
+                "code": "ER"
+            }
+        ]
+    },
+    {
+        "name": "Afrikaans",
+        "name_local": "Afrikaans",
+        "iso_639_1": "af",
+        "iso_639_2": "afr",
+        "iso_639_3": "afr",
+        "countries": [
+            {
+                "name": "Namibia",
+                "name_local": "Namibia",
+                "code": "NA"
+            },
+            {
+                "name": "South Africa",
+                "name_local": "Suid-Afrika / South Africa / Sewula Afrika",
+                "code": "ZA"
+            }
+        ]
+    },
+    {
+        "name": "Amharic",
+        "name_local": "አማርኛ",
+        "iso_639_1": "am",
+        "iso_639_2": "amh",
+        "iso_639_3": "amh",
+        "countries": [
+            {
+                "name": "Ethiopia",
+                "name_local": "ኢትዮጵያ Ityop̣p̣əya",
+                "code": "ET"
+            }
+        ]
+    },
+    {
+        "name": "Arabic",
+        "name_local": "العربية",
+        "iso_639_1": "ar",
+        "iso_639_2": "ara",
+        "iso_639_3": "ara",
+        "countries": [
+            {
+                "name": "Egypt",
+                "name_local": "مصر Miṣr",
+                "code": "EG"
+            },
+            {
+                "name": "Algeria",
+                "name_local": "الجزائر al-Dschazā’ir",
+                "code": "DZ"
+            },
+            {
+                "name": "Bahrain",
+                "name_local": "البحرين al-Bahrain",
+                "code": "BH"
+            },
+            {
+                "name": "Djibouti",
+                "name_local": "جيبوتي / Dschībūtī / Djibouti / Jabuuti / Gab",
+                "code": "DJ"
+            },
+            {
+                "name": "Eritrea",
+                "name_local": "ኤርትራ Ertra / إرتريا Iritriyyā",
+                "code": "ER"
+            },
+            {
+                "name": "Iraq",
+                "name_local": "جمهورية العراق / Al-´Iraq",
+                "code": "IQ"
+            },
+            {
+                "name": "Israel",
+                "name_local": "ישראל / Yisra’el / Isra’il",
+                "code": "IL"
+            },
+            {
+                "name": "Yemen",
+                "name_local": "الجمهورية اليمنية / Al-Yaman",
+                "code": "YE"
+            },
+            {
+                "name": "Jordan",
+                "name_local": "الأُرْدُنّ  / Al-Urdunn",
+                "code": "JO"
+            },
+            {
+                "name": "Qatar",
+                "name_local": "قطر / Qatar",
+                "code": "QA"
+            },
+            {
+                "name": "Comoros",
+                "name_local": "القمر جزر / قمر / Comores",
+                "code": "KM"
+            },
+            {
+                "name": "Kuwait",
+                "name_local": "Al-Kuwayt",
+                "code": "KW"
+            },
+            {
+                "name": "Lebanon",
+                "name_local": "Lubnan",
+                "code": "LB"
+            },
+            {
+                "name": "Libya",
+                "name_local": "Libiya",
+                "code": "LY"
+            },
+            {
+                "name": "Morocco",
+                "name_local": "Al-Maghrib",
+                "code": "MA"
+            },
+            {
+                "name": "Mauritania",
+                "name_local": "Muritaniya/Mauritanie",
+                "code": "MR"
+            },
+            {
+                "name": "Oman",
+                "name_local": "´Uman",
+                "code": "OM"
+            },
+            {
+                "name": "Palestine",
+                "name_local": "Filastin",
+                "code": "PS"
+            },
+            {
+                "name": "Saudi Arabia",
+                "name_local": "المملكة العربية السعودية / Al-´Arabiya as-Sa´",
+                "code": "SA"
+            },
+            {
+                "name": "Somalia",
+                "name_local": "Soomaaliya / Somalia / الصومال",
+                "code": "SO"
+            },
+            {
+                "name": "Sudan",
+                "name_local": "جمهورية السودان / As-Sūdān",
+                "code": "SD"
+            },
+            {
+                "name": "Syria",
+                "name_local": "Sūriyya / Suriya / الجمهورية العربية السورية",
+                "code": "SY"
+            },
+            {
+                "name": "Chad",
+                "name_local": "جمهوريّة تشاد / Tchad",
+                "code": "TD"
+            },
+            {
+                "name": "Tunisia",
+                "name_local": "تونس / الجمهورية التونسية / Tūnisiyya",
+                "code": "TN"
+            },
+            {
+                "name": "United Arab Emirates",
+                "name_local": "الإمارات العربية المتحدة / Al-Imarat al-´Arab",
+                "code": "AE"
+            }
+        ]
+    },
+    {
+        "name": "Aymara",
+        "name_local": "aymar aru",
+        "iso_639_1": "ay",
+        "iso_639_2": "aym",
+        "iso_639_3": "aym",
+        "countries": [
+            {
+                "name": "Bolivia",
+                "name_local": "Bolivia",
+                "code": "BO"
+            }
+        ]
+    },
+    {
+        "name": "Azerbaijani",
+        "name_local": "azərbaycan dili",
+        "iso_639_1": "az",
+        "iso_639_2": "aze",
+        "iso_639_3": "aze",
+        "countries": [
+            {
+                "name": "Azerbaijan",
+                "name_local": "Azərbaycan",
+                "code": "AZ"
+            }
+        ]
+    },
+    {
+        "name": "Belarusian",
+        "name_local": "беларуская мова",
+        "iso_639_1": "be",
+        "iso_639_2": "bel",
+        "iso_639_3": "bel",
+        "countries": [
+            {
+                "name": "Belarus",
+                "name_local": "Беларусь",
+                "code": "BY"
+            }
+        ]
+    },
+    {
+        "name": "Bengali",
+        "name_local": "বাংলা",
+        "iso_639_1": "bn",
+        "iso_639_2": "ben",
+        "iso_639_3": "ben",
+        "countries": [
+            {
+                "name": "Bangladesh",
+                "name_local": "বাংলাদেশ Bāṃlādeś",
+                "code": "BD"
+            }
+        ]
+    },
+    {
+        "name": "Bislama",
+        "name_local": "Bislama",
+        "iso_639_1": "bi",
+        "iso_639_2": "bis",
+        "iso_639_3": "bis",
+        "countries": [
+            {
+                "name": "Vanuatu",
+                "name_local": "Vanuatu",
+                "code": "VU"
+            }
+        ]
+    },
+    {
+        "name": "Bosnian",
+        "name_local": "bosanski jezik",
+        "iso_639_1": "bs",
+        "iso_639_2": "bos",
+        "iso_639_3": "bos",
+        "countries": [
+            {
+                "name": "Bosnia and Herzegovina",
+                "name_local": "Bosna i Hercegovina / Босна и Херцеговина",
+                "code": "BA"
+            },
+            {
+                "name": "Montenegro",
+                "name_local": "Црна Гора / Crna Gora / Mali i Zi",
+                "code": "ME"
+            }
+        ]
+    },
+    {
+        "name": "Bulgarian",
+        "name_local": "български език",
+        "iso_639_1": "bg",
+        "iso_639_2": "bul",
+        "iso_639_3": "bul",
+        "countries": [
+            {
+                "name": "Bulgaria",
+                "name_local": "България",
+                "code": "BG"
+            }
+        ]
+    },
+    {
+        "name": "Bilen",
+        "name_local": "ብሊና",
+        "iso_639_1": "",
+        "iso_639_2": "byn",
+        "iso_639_3": "",
+        "countries": [
+            {
+                "name": "Eritrea",
+                "name_local": "ኤርትራ Ertra / إرتريا Iritriyyā",
+                "code": "ER"
+            }
+        ]
+    },
+    {
+        "name": "Catalan",
+        "name_local": "català",
+        "iso_639_1": "ca",
+        "iso_639_2": "cat",
+        "iso_639_3": "cat",
+        "countries": [
+            {
+                "name": "Andorra",
+                "name_local": "",
+                "code": "AD"
+            }
+        ]
+    },
+    {
+        "name": "Czech",
+        "name_local": "čeština",
+        "iso_639_1": "cs",
+        "iso_639_2": "ces",
+        "iso_639_3": "ces",
+        "countries": [
+            {
+                "name": "Czechia",
+                "name_local": "Česko, Česká republika",
+                "code": "CZ"
+            }
+        ]
+    },
+    {
+        "name": "Chamorro",
+        "name_local": "Chamoru",
+        "iso_639_1": "ch",
+        "iso_639_2": "cha",
+        "iso_639_3": "cha",
+        "countries": [
+            {
+                "name": "Guam",
+                "name_local": "Guam",
+                "code": "GU"
+            },
+            {
+                "name": "Northern Mariana Islands",
+                "name_local": "Northern Mariana Islands",
+                "code": "MP"
+            }
+        ]
+    },
+    {
+        "name": "Danish",
+        "name_local": "dansk",
+        "iso_639_1": "da",
+        "iso_639_2": "dan",
+        "iso_639_3": "dan",
+        "countries": [
+            {
+                "name": "Denmark",
+                "name_local": "Danmark",
+                "code": "DK"
+            }
+        ]
+    },
+    {
+        "name": "German",
+        "name_local": "Deutsch",
+        "iso_639_1": "de",
+        "iso_639_2": "deu",
+        "iso_639_3": "deu",
+        "countries": [
+            {
+                "name": "Belgium",
+                "name_local": "België / Belgique",
+                "code": "BE"
+            },
+            {
+                "name": "Germany",
+                "name_local": "Deutschland",
+                "code": "DE"
+            },
+            {
+                "name": "Liechtenstein",
+                "name_local": "Liechtenstein",
+                "code": "LI"
+            },
+            {
+                "name": "Luxembourg",
+                "name_local": "Luxembourg/Lëtzebuerg",
+                "code": "LU"
+            },
+            {
+                "name": "Austria",
+                "name_local": "Österreich",
+                "code": "AT"
+            },
+            {
+                "name": "Switzerland",
+                "name_local": "Schweiz / Suisse / Svizzera / Svizra",
+                "code": "CH"
+            },
+            {
+                "name": "Vatican City",
+                "name_local": "Vaticanæ / Santa Sede / Città del Vaticano",
+                "code": "VA"
+            }
+        ]
+    },
+    {
+        "name": "Divehi",
+        "name_local": "ދިވެހި",
+        "iso_639_1": "dv",
+        "iso_639_2": "div",
+        "iso_639_3": "div",
+        "countries": [
+            {
+                "name": "Maldives",
+                "name_local": "Dhivehi Raajje/Maldives",
+                "code": "MV"
+            }
+        ]
+    },
+    {
+        "name": "Dzongkha",
+        "name_local": "རྫོང་ཁ",
+        "iso_639_1": "dz",
+        "iso_639_2": "dzo",
+        "iso_639_3": "dzo",
+        "countries": [
+            {
+                "name": "Bhutan",
+                "name_local": "འབྲུག་ཡུལ་ Dzongkha",
+                "code": "BT"
+            }
+        ]
+    },
+    {
+        "name": "Greek (modern)",
+        "name_local": "ελληνικά",
+        "iso_639_1": "el",
+        "iso_639_2": "ell",
+        "iso_639_3": "ell",
+        "countries": [
+            {
+                "name": "Greece",
+                "name_local": "Ελλάδα / Elláda",
+                "code": "GR"
+            },
+            {
+                "name": "Cyprus",
+                "name_local": "Κύπρος / Kypros / Kıbrıs",
+                "code": "CY"
+            }
+        ]
+    },
+    {
+        "name": "English",
+        "name_local": "English",
+        "iso_639_1": "en",
+        "iso_639_2": "eng",
+        "iso_639_3": "eng",
+        "countries": [
+            {
+                "name": "American Samoa",
+                "name_local": "Sāmoa Amelika",
+                "code": "AS"
+            },
+            {
+                "name": "Anguilla",
+                "name_local": "Anguilla",
+                "code": "AI"
+            },
+            {
+                "name": "Antarctica",
+                "name_local": "",
+                "code": "AQ"
+            },
+            {
+                "name": "Antigua and Barbuda",
+                "name_local": "Antigua and Barbuda",
+                "code": "AG"
+            },
+            {
+                "name": "Australia",
+                "name_local": "Australia",
+                "code": "AU"
+            },
+            {
+                "name": "Bahamas",
+                "name_local": "The Bahamas",
+                "code": "BS"
+            },
+            {
+                "name": "Barbados",
+                "name_local": "Barbados",
+                "code": "BB"
+            },
+            {
+                "name": "Belize",
+                "name_local": "Belize",
+                "code": "BZ"
+            },
+            {
+                "name": "Bermuda",
+                "name_local": "Bermuda",
+                "code": "BM"
+            },
+            {
+                "name": "Botswana",
+                "name_local": "Botswana",
+                "code": "BW"
+            },
+            {
+                "name": "British Indian Ocean Territory",
+                "name_local": "British Indian Ocean Territory",
+                "code": "IO"
+            },
+            {
+                "name": "Cook Islands",
+                "name_local": "Cook Islands / Kūki 'Āirani",
+                "code": "CK"
+            },
+            {
+                "name": "Curacao",
+                "name_local": "Curaçao / Kòrsou",
+                "code": "CW"
+            },
+            {
+                "name": "Dominica",
+                "name_local": "Dominica",
+                "code": "DM"
+            },
+            {
+                "name": "Eritrea",
+                "name_local": "ኤርትራ Ertra / إرتريا Iritriyyā",
+                "code": "ER"
+            },
+            {
+                "name": "Eswatini",
+                "name_local": "Umbuso weSwatini",
+                "code": "SZ"
+            },
+            {
+                "name": "Falkland Islands",
+                "name_local": "Falkland Islands",
+                "code": "FK"
+            },
+            {
+                "name": "Fiji",
+                "name_local": "Viti / फ़िजी गणराज्य / Fiji",
+                "code": "FJ"
+            },
+            {
+                "name": "Federated States of Micronesia",
+                "name_local": "",
+                "code": "FM"
+            },
+            {
+                "name": "Gambia",
+                "name_local": "The Gambia",
+                "code": "GM"
+            },
+            {
+                "name": "Ghana",
+                "name_local": "Ghana",
+                "code": "GH"
+            },
+            {
+                "name": "Gibraltar",
+                "name_local": "Gibraltar",
+                "code": "GI"
+            },
+            {
+                "name": "Grenada",
+                "name_local": "Grenada",
+                "code": "GD"
+            },
+            {
+                "name": "Guam",
+                "name_local": "Guam",
+                "code": "GU"
+            },
+            {
+                "name": "Guernsey",
+                "name_local": "Bailiwick of Guernsey",
+                "code": "GG"
+            },
+            {
+                "name": "Guyana",
+                "name_local": "Guyana",
+                "code": "GY"
+            },
+            {
+                "name": "Heard Island and McDonald Islands",
+                "name_local": "Heard and McDonald Islands",
+                "code": "HM"
+            },
+            {
+                "name": "Hong Kong",
+                "name_local": "香港 / Xiānggǎng",
+                "code": "HK"
+            },
+            {
+                "name": "India",
+                "name_local": "Bharat  / भारत गणराज्य",
+                "code": "IN"
+            },
+            {
+                "name": "Isle of Man",
+                "name_local": "Isle of Man / Mannin / Ellan Vannin",
+                "code": "IM"
+            },
+            {
+                "name": "Ireland",
+                "name_local": "Éire / Airlann",
+                "code": "IE"
+            },
+            {
+                "name": "Jamaica",
+                "name_local": "Jamaica",
+                "code": "JM"
+            },
+            {
+                "name": "Jersey",
+                "name_local": "Bailiwick of Jersey",
+                "code": "JE"
+            },
+            {
+                "name": "British Virgin Islands",
+                "name_local": "British Virgin Islands",
+                "code": "VG"
+            },
+            {
+                "name": "Virgin Islands",
+                "name_local": "Virgin Islands of the United States",
+                "code": "VI"
+            },
+            {
+                "name": "Cayman Islands",
+                "name_local": "Cayman Islands",
+                "code": "KY"
+            },
+            {
+                "name": "Cameroon",
+                "name_local": "Cameroun / Cameroon",
+                "code": "CM"
+            },
+            {
+                "name": "Canada",
+                "name_local": "Canada",
+                "code": "CA"
+            },
+            {
+                "name": "Kenya",
+                "name_local": "Kenya",
+                "code": "KE"
+            },
+            {
+                "name": "Kiribati",
+                "name_local": "Kiribati",
+                "code": "KI"
+            },
+            {
+                "name": "United States Minor Outlying Islands",
+                "name_local": "United States Minor Outlying Islands",
+                "code": "UM"
+            },
+            {
+                "name": "Cocos (Keeling) Islands",
+                "name_local": "",
+                "code": "CC"
+            },
+            {
+                "name": "Lesotho",
+                "name_local": "Lesotho",
+                "code": "LS"
+            },
+            {
+                "name": "Liberia",
+                "name_local": "Liberia",
+                "code": "LR"
+            },
+            {
+                "name": "Malawi",
+                "name_local": "Malawi",
+                "code": "MW"
+            },
+            {
+                "name": "Malta",
+                "name_local": "Malta",
+                "code": "MT"
+            },
+            {
+                "name": "Marshall Islands",
+                "name_local": "Marshall Islands/Majol",
+                "code": "MH"
+            },
+            {
+                "name": "Mauritius",
+                "name_local": "Maurice",
+                "code": "MU"
+            },
+            {
+                "name": "Montserrat",
+                "name_local": "Montserrat",
+                "code": "MS"
+            },
+            {
+                "name": "Namibia",
+                "name_local": "Namibia",
+                "code": "NA"
+            },
+            {
+                "name": "Nauru",
+                "name_local": "Naoero/Nauru",
+                "code": "NR"
+            },
+            {
+                "name": "New Zealand",
+                "name_local": "New Zealand/Aotearoa",
+                "code": "NZ"
+            },
+            {
+                "name": "Nigeria",
+                "name_local": "Nigeria",
+                "code": "NG"
+            },
+            {
+                "name": "Niue",
+                "name_local": "Niue",
+                "code": "NU"
+            },
+            {
+                "name": "Northern Mariana Islands",
+                "name_local": "Northern Mariana Islands",
+                "code": "MP"
+            },
+            {
+                "name": "Norfolk Island",
+                "name_local": "Norfolk Island",
+                "code": "NF"
+            },
+            {
+                "name": "Pakistan",
+                "name_local": "Pakistan",
+                "code": "PK"
+            },
+            {
+                "name": "Palau",
+                "name_local": "Belau/Palau",
+                "code": "PW"
+            },
+            {
+                "name": "Papua New Guinea",
+                "name_local": "Papua New Guinea/Papua Niugini",
+                "code": "PG"
+            },
+            {
+                "name": "Philippines",
+                "name_local": "Pilipinas",
+                "code": "PH"
+            },
+            {
+                "name": "Pitcairn Islands",
+                "name_local": "",
+                "code": "PN"
+            },
+            {
+                "name": "Puerto Rico",
+                "name_local": "Puerto Rico",
+                "code": "PR"
+            },
+            {
+                "name": "Rwanda",
+                "name_local": "Rwanda / Urwanda",
+                "code": "RW"
+            },
+            {
+                "name": "Saint Martin",
+                "name_local": "Saint Martin",
+                "code": "MF"
+            },
+            {
+                "name": "Solomon Islands",
+                "name_local": "Solomon Islands",
+                "code": "SB"
+            },
+            {
+                "name": "Zambia",
+                "name_local": "Zambia",
+                "code": "ZM"
+            },
+            {
+                "name": "Samoa",
+                "name_local": "Sāmoa",
+                "code": "WS"
+            },
+            {
+                "name": "Seychelles",
+                "name_local": "Sese l /Seychelles",
+                "code": "SC"
+            },
+            {
+                "name": "Sierra Leone",
+                "name_local": "Sierra Leone",
+                "code": "SL"
+            },
+            {
+                "name": "Zimbabwe",
+                "name_local": "Zimbabwe",
+                "code": "ZW"
+            },
+            {
+                "name": "Singapore",
+                "name_local": "Singapore / Singapura / 新加坡共和国 / சிங்கப்பூர்",
+                "code": "SG"
+            },
+            {
+                "name": "Sint Maarten",
+                "name_local": "Sint Maarten",
+                "code": "SX"
+            },
+            {
+                "name": "Saint Helena, Ascension and Tristan da Cunha",
+                "name_local": "Saint Helena",
+                "code": "SH"
+            },
+            {
+                "name": "Saint Kitts and Nevis",
+                "name_local": "Saint Kitts and Nevis",
+                "code": "KN"
+            },
+            {
+                "name": "Saint Lucia",
+                "name_local": "Saint Lucia",
+                "code": "LC"
+            },
+            {
+                "name": "Saint Vincent and the Grenadines",
+                "name_local": "Saint Vincent and the Grenadines",
+                "code": "VC"
+            },
+            {
+                "name": "South Africa",
+                "name_local": "Suid-Afrika / South Africa / Sewula Afrika",
+                "code": "ZA"
+            },
+            {
+                "name": "Sudan",
+                "name_local": "جمهورية السودان / As-Sūdān",
+                "code": "SD"
+            },
+            {
+                "name": "South Georgia and South Sandwich Islands",
+                "name_local": "South Georgia and the South Sandwich Islands",
+                "code": "GS"
+            },
+            {
+                "name": "South Sudan",
+                "name_local": "",
+                "code": "SS"
+            },
+            {
+                "name": "Tanzania",
+                "name_local": "Tanzania",
+                "code": "TZ"
+            },
+            {
+                "name": "Tokelau",
+                "name_local": "Tokelau",
+                "code": "TK"
+            },
+            {
+                "name": "Tonga",
+                "name_local": "Puleʻanga Fakatuʻi ʻo Tonga",
+                "code": "TO"
+            },
+            {
+                "name": "Trinidad and Tobago",
+                "name_local": "Trinidad and Tobago",
+                "code": "TT"
+            },
+            {
+                "name": "Turks and Caicos Islands",
+                "name_local": "The Turks and Caicos Islands",
+                "code": "TC"
+            },
+            {
+                "name": "Tuvalu",
+                "name_local": "Tuvalu / Fakavae Aliki-Malo",
+                "code": "TV"
+            },
+            {
+                "name": "Uganda",
+                "name_local": "Uganda",
+                "code": "UG"
+            },
+            {
+                "name": "Vanuatu",
+                "name_local": "Vanuatu",
+                "code": "VU"
+            },
+            {
+                "name": "United States of America",
+                "name_local": "",
+                "code": "US"
+            },
+            {
+                "name": "United Kingdom",
+                "name_local": "United Kingdom",
+                "code": "GB"
+            },
+            {
+                "name": "Christmas Island",
+                "name_local": "Christmas Island",
+                "code": "CX"
+            }
+        ]
+    },
+    {
+        "name": "Estonian",
+        "name_local": "eesti",
+        "iso_639_1": "et",
+        "iso_639_2": "est",
+        "iso_639_3": "est",
+        "countries": [
+            {
+                "name": "Estonia",
+                "name_local": "Eesti",
+                "code": "EE"
+            }
+        ]
+    },
+    {
+        "name": "Fang",
+        "name_local": "Fang",
+        "iso_639_1": "",
+        "iso_639_2": "fan",
+        "iso_639_3": "",
+        "countries": [
+            {
+                "name": "Equatorial Guinea",
+                "name_local": "Guinea Ecuatorial",
+                "code": "GQ"
+            }
+        ]
+    },
+    {
+        "name": "Faroese",
+        "name_local": "føroyskt",
+        "iso_639_1": "fo",
+        "iso_639_2": "fao",
+        "iso_639_3": "fao",
+        "countries": [
+            {
+                "name": "Faroe Islands",
+                "name_local": "Føroyar / Færøerne",
+                "code": "FO"
+            }
+        ]
+    },
+    {
+        "name": "Persian (Farsi)",
+        "name_local": "فارسی",
+        "iso_639_1": "fa",
+        "iso_639_2": "fas",
+        "iso_639_3": "fas",
+        "countries": [
+            {
+                "name": "Iran",
+                "name_local": "ايران / Īrān",
+                "code": "IR"
+            }
+        ]
+    },
+    {
+        "name": "Fijian",
+        "name_local": "vosa Vakaviti",
+        "iso_639_1": "fj",
+        "iso_639_2": "fij",
+        "iso_639_3": "fij",
+        "countries": [
+            {
+                "name": "Fiji",
+                "name_local": "Viti / फ़िजी गणराज्य / Fiji",
+                "code": "FJ"
+            }
+        ]
+    },
+    {
+        "name": "Finnish",
+        "name_local": "suomi",
+        "iso_639_1": "fi",
+        "iso_639_2": "fin",
+        "iso_639_3": "fin",
+        "countries": [
+            {
+                "name": "Finland",
+                "name_local": "Suomi",
+                "code": "FI"
+            }
+        ]
+    },
+    {
+        "name": "French",
+        "name_local": "français",
+        "iso_639_1": "fr",
+        "iso_639_2": "fra",
+        "iso_639_3": "fra",
+        "countries": [
+            {
+                "name": "Equatorial Guinea",
+                "name_local": "Guinea Ecuatorial",
+                "code": "GQ"
+            },
+            {
+                "name": "Belgium",
+                "name_local": "België / Belgique",
+                "code": "BE"
+            },
+            {
+                "name": "Benin",
+                "name_local": "Bénin",
+                "code": "BJ"
+            },
+            {
+                "name": "Burkina Faso",
+                "name_local": "Burkina Faso",
+                "code": "BF"
+            },
+            {
+                "name": "Burundi",
+                "name_local": "Burundi / Uburundi",
+                "code": "BI"
+            },
+            {
+                "name": "Democratic Republic of the Congo",
+                "name_local": "République Démocratique du Congo",
+                "code": "CD"
+            },
+            {
+                "name": "Djibouti",
+                "name_local": "جيبوتي / Dschībūtī / Djibouti / Jabuuti / Gab",
+                "code": "DJ"
+            },
+            {
+                "name": "Ivory Coast",
+                "name_local": "Côte d’Ivoire",
+                "code": "CI"
+            },
+            {
+                "name": "France",
+                "name_local": "France",
+                "code": "FR"
+            },
+            {
+                "name": "French Guiana",
+                "name_local": "Guyane française",
+                "code": "GF"
+            },
+            {
+                "name": "French Polynesia",
+                "name_local": "Polynésie française",
+                "code": "PF"
+            },
+            {
+                "name": "French Southern and Antarctic Lands",
+                "name_local": "Terres australes françaises",
+                "code": "TF"
+            },
+            {
+                "name": "Principality of Monaco",
+                "name_local": "Monaco",
+                "code": "MC"
+            },
+            {
+                "name": "Gabon",
+                "name_local": "Le Gabon",
+                "code": "GA"
+            },
+            {
+                "name": "Guadeloupe",
+                "name_local": "Guadeloupe / Gwadloup",
+                "code": "GP"
+            },
+            {
+                "name": "Guernsey",
+                "name_local": "Bailiwick of Guernsey",
+                "code": "GG"
+            },
+            {
+                "name": "Guinea",
+                "name_local": "La Guinée",
+                "code": "GN"
+            },
+            {
+                "name": "Haiti",
+                "name_local": "Ayiti / Haïti",
+                "code": "HT"
+            },
+            {
+                "name": "Jersey",
+                "name_local": "Bailiwick of Jersey",
+                "code": "JE"
+            },
+            {
+                "name": "Cameroon",
+                "name_local": "Cameroun / Cameroon",
+                "code": "CM"
+            },
+            {
+                "name": "Canada",
+                "name_local": "Canada",
+                "code": "CA"
+            },
+            {
+                "name": "Comoros",
+                "name_local": "القمر جزر / قمر / Comores",
+                "code": "KM"
+            },
+            {
+                "name": "Lebanon",
+                "name_local": "Lubnan",
+                "code": "LB"
+            },
+            {
+                "name": "Luxembourg",
+                "name_local": "Luxembourg/Lëtzebuerg",
+                "code": "LU"
+            },
+            {
+                "name": "Madagascar",
+                "name_local": "Madagasikara/Madagascar",
+                "code": "MG"
+            },
+            {
+                "name": "Mali",
+                "name_local": "Mali",
+                "code": "ML"
+            },
+            {
+                "name": "Martinique",
+                "name_local": "Martinique / Matinik / Matnik",
+                "code": "MQ"
+            },
+            {
+                "name": "Mayotte",
+                "name_local": "Mayotte",
+                "code": "YT"
+            },
+            {
+                "name": "New Caledonia",
+                "name_local": "Nouvelle-Calédonie",
+                "code": "NC"
+            },
+            {
+                "name": "Niger",
+                "name_local": "Niger",
+                "code": "NE"
+            },
+            {
+                "name": "Republic of the Congo",
+                "name_local": "Congo",
+                "code": "CG"
+            },
+            {
+                "name": "Reunion",
+                "name_local": "Réunion",
+                "code": "RE"
+            },
+            {
+                "name": "Rwanda",
+                "name_local": "Rwanda / Urwanda",
+                "code": "RW"
+            },
+            {
+                "name": "Saint Martin",
+                "name_local": "Saint Martin",
+                "code": "MF"
+            },
+            {
+                "name": "Saint Barthelemy",
+                "name_local": "Saint-Barthélemy",
+                "code": "BL"
+            },
+            {
+                "name": "Switzerland",
+                "name_local": "Schweiz / Suisse / Svizzera / Svizra",
+                "code": "CH"
+            },
+            {
+                "name": "Senegal",
+                "name_local": "Sénégal / Sounougal",
+                "code": "SN"
+            },
+            {
+                "name": "Seychelles",
+                "name_local": "Sese l /Seychelles",
+                "code": "SC"
+            },
+            {
+                "name": "Saint Pierre and Miquelon",
+                "name_local": "Saint-Pierre-et-Miquelon",
+                "code": "PM"
+            },
+            {
+                "name": "Togo",
+                "name_local": "Togo",
+                "code": "TG"
+            },
+            {
+                "name": "Chad",
+                "name_local": "جمهوريّة تشاد / Tchad",
+                "code": "TD"
+            },
+            {
+                "name": "Vanuatu",
+                "name_local": "Vanuatu",
+                "code": "VU"
+            },
+            {
+                "name": "Vatican City",
+                "name_local": "Vaticanæ / Santa Sede / Città del Vaticano",
+                "code": "VA"
+            },
+            {
+                "name": "Wallis and Futuna",
+                "name_local": "Wallis-et-Futuna",
+                "code": "WF"
+            },
+            {
+                "name": "Central African Republic",
+                "name_local": "Centrafrique / Bê-Afrîka",
+                "code": "CF"
+            }
+        ]
+    },
+    {
+        "name": "Fula",
+        "name_local": "Fulfulde",
+        "iso_639_1": "ff",
+        "iso_639_2": "ful",
+        "iso_639_3": "ful",
+        "countries": [
+            {
+                "name": "Burkina Faso",
+                "name_local": "Burkina Faso",
+                "code": "BF"
+            },
+            {
+                "name": "Guinea",
+                "name_local": "La Guinée",
+                "code": "GN"
+            }
+        ]
+    },
+    {
+        "name": "Irish",
+        "name_local": "Gaeilge",
+        "iso_639_1": "ga",
+        "iso_639_2": "gle",
+        "iso_639_3": "gle",
+        "countries": [
+            {
+                "name": "Ireland",
+                "name_local": "Éire / Airlann",
+                "code": "IE"
+            }
+        ]
+    },
+    {
+        "name": "Manx",
+        "name_local": "Gaelg",
+        "iso_639_1": "gv",
+        "iso_639_2": "glv",
+        "iso_639_3": "glv",
+        "countries": [
+            {
+                "name": "Isle of Man",
+                "name_local": "Isle of Man / Mannin / Ellan Vannin",
+                "code": "IM"
+            }
+        ]
+    },
+    {
+        "name": "Guaraní",
+        "name_local": "Avañe'ẽ",
+        "iso_639_1": "gn",
+        "iso_639_2": "grn",
+        "iso_639_3": "grn",
+        "countries": [
+            {
+                "name": "Argentina",
+                "name_local": "Argentina",
+                "code": "AR"
+            },
+            {
+                "name": "Paraguay",
+                "name_local": "Paraguay",
+                "code": "PY"
+            }
+        ]
+    },
+    {
+        "name": "Haitian",
+        "name_local": "Kreyòl ayisyen",
+        "iso_639_1": "ht",
+        "iso_639_2": "hat",
+        "iso_639_3": "hat",
+        "countries": [
+            {
+                "name": "Haiti",
+                "name_local": "Ayiti / Haïti",
+                "code": "HT"
+            }
+        ]
+    },
+    {
+        "name": "Hebrew (modern)",
+        "name_local": "עברית",
+        "iso_639_1": "he",
+        "iso_639_2": "heb",
+        "iso_639_3": "heb",
+        "countries": [
+            {
+                "name": "Israel",
+                "name_local": "ישראל / Yisra’el / Isra’il",
+                "code": "IL"
+            }
+        ]
+    },
+    {
+        "name": "Fiji Hindi",
+        "name_local": "फ़िजी बात",
+        "iso_639_1": "",
+        "iso_639_2": "hif",
+        "iso_639_3": "",
+        "countries": [
+            {
+                "name": "Fiji",
+                "name_local": "Viti / फ़िजी गणराज्य / Fiji",
+                "code": "FJ"
+            }
+        ]
+    },
+    {
+        "name": "Hindi",
+        "name_local": "हिन्दी",
+        "iso_639_1": "hi",
+        "iso_639_2": "hin",
+        "iso_639_3": "hin",
+        "countries": [
+            {
+                "name": "India",
+                "name_local": "Bharat  / भारत गणराज्य",
+                "code": "IN"
+            }
+        ]
+    },
+    {
+        "name": "Croatian",
+        "name_local": "hrvatski jezik",
+        "iso_639_1": "hr",
+        "iso_639_2": "hrv",
+        "iso_639_3": "hrv",
+        "countries": [
+            {
+                "name": "Bosnia and Herzegovina",
+                "name_local": "Bosna i Hercegovina / Босна и Херцеговина",
+                "code": "BA"
+            },
+            {
+                "name": "Croatia",
+                "name_local": "Hrvatska",
+                "code": "HR"
+            },
+            {
+                "name": "Montenegro",
+                "name_local": "Црна Гора / Crna Gora / Mali i Zi",
+                "code": "ME"
+            }
+        ]
+    },
+    {
+        "name": "Hungarian",
+        "name_local": "magyar",
+        "iso_639_1": "hu",
+        "iso_639_2": "hun",
+        "iso_639_3": "hun",
+        "countries": [
+            {
+                "name": "Hungary",
+                "name_local": "Magyarország",
+                "code": "HU"
+            }
+        ]
+    },
+    {
+        "name": "Armenian",
+        "name_local": "Հայերեն",
+        "iso_639_1": "hy",
+        "iso_639_2": "hye",
+        "iso_639_3": "hye",
+        "countries": [
+            {
+                "name": "Armenia",
+                "name_local": "Հայաստան Hajastan",
+                "code": "AM"
+            },
+            {
+                "name": "Cyprus",
+                "name_local": "Κύπρος / Kypros / Kıbrıs",
+                "code": "CY"
+            }
+        ]
+    },
+    {
+        "name": "Indonesian",
+        "name_local": "Bahasa Indonesia",
+        "iso_639_1": "id",
+        "iso_639_2": "ind",
+        "iso_639_3": "ind",
+        "countries": [
+            {
+                "name": "Indonesia",
+                "name_local": "Indonesia",
+                "code": "ID"
+            }
+        ]
+    },
+    {
+        "name": "Icelandic",
+        "name_local": "Íslenska",
+        "iso_639_1": "is",
+        "iso_639_2": "isl",
+        "iso_639_3": "isl",
+        "countries": [
+            {
+                "name": "Iceland",
+                "name_local": "Ísland",
+                "code": "IS"
+            }
+        ]
+    },
+    {
+        "name": "Italian",
+        "name_local": "Italiano",
+        "iso_639_1": "it",
+        "iso_639_2": "ita",
+        "iso_639_3": "ita",
+        "countries": [
+            {
+                "name": "Italy",
+                "name_local": "Italia",
+                "code": "IT"
+            },
+            {
+                "name": "San Marino",
+                "name_local": "San Marino",
+                "code": "SM"
+            },
+            {
+                "name": "Switzerland",
+                "name_local": "Schweiz / Suisse / Svizzera / Svizra",
+                "code": "CH"
+            },
+            {
+                "name": "Vatican City",
+                "name_local": "Vaticanæ / Santa Sede / Città del Vaticano",
+                "code": "VA"
+            }
+        ]
+    },
+    {
+        "name": "Japanese",
+        "name_local": "日本語 (にほんご)",
+        "iso_639_1": "ja",
+        "iso_639_2": "jpn",
+        "iso_639_3": "jpn",
+        "countries": [
+            {
+                "name": "Japan",
+                "name_local": "日本国",
+                "code": "JP"
+            }
+        ]
+    },
+    {
+        "name": "Greenlandic",
+        "name_local": "kalaallisut",
+        "iso_639_1": "kl",
+        "iso_639_2": "kal",
+        "iso_639_3": "kal",
+        "countries": [
+            {
+                "name": "Greenland",
+                "name_local": "Kalaallit Nunaat / Grønland",
+                "code": "GL"
+            }
+        ]
+    },
+    {
+        "name": "Georgian",
+        "name_local": "ქართული",
+        "iso_639_1": "ka",
+        "iso_639_2": "kat",
+        "iso_639_3": "kat",
+        "countries": [
+            {
+                "name": "Georgia",
+                "name_local": "საქართველო / Sakartwelo",
+                "code": "GE"
+            }
+        ]
+    },
+    {
+        "name": "Kazakh",
+        "name_local": "қазақ тілі",
+        "iso_639_1": "kk",
+        "iso_639_2": "kaz",
+        "iso_639_3": "kaz",
+        "countries": [
+            {
+                "name": "Kazakhstan",
+                "name_local": "Қазақстан /  Qazaqstan",
+                "code": "KZ"
+            }
+        ]
+    },
+    {
+        "name": "Khmer",
+        "name_local": "ខ្មែរ",
+        "iso_639_1": "km",
+        "iso_639_2": "khm",
+        "iso_639_3": "khm",
+        "countries": [
+            {
+                "name": "Cambodia",
+                "name_local": "ព្រះរាជាណាចក្រកម្ពុជា / Preăh Réachéanachâk K",
+                "code": "KH"
+            }
+        ]
+    },
+    {
+        "name": "Kinyarwanda",
+        "name_local": "Ikinyarwanda",
+        "iso_639_1": "rw",
+        "iso_639_2": "kin",
+        "iso_639_3": "kin",
+        "countries": [
+            {
+                "name": "Rwanda",
+                "name_local": "Rwanda / Urwanda",
+                "code": "RW"
+            }
+        ]
+    },
+    {
+        "name": "Kyrgyz",
+        "name_local": "Кыргызча",
+        "iso_639_1": "ky",
+        "iso_639_2": "kir",
+        "iso_639_3": "kir",
+        "countries": [
+            {
+                "name": "Kyrgyzstan",
+                "name_local": "Кыргызстан / Kyrgyzstan",
+                "code": "KG"
+            }
+        ]
+    },
+    {
+        "name": "Kongo",
+        "name_local": "Kikongo",
+        "iso_639_1": "kg",
+        "iso_639_2": "kon",
+        "iso_639_3": "kon",
+        "countries": [
+            {
+                "name": "Democratic Republic of the Congo",
+                "name_local": "République Démocratique du Congo",
+                "code": "CD"
+            }
+        ]
+    },
+    {
+        "name": "Korean",
+        "name_local": "한국어",
+        "iso_639_1": "ko",
+        "iso_639_2": "kor",
+        "iso_639_3": "kor",
+        "countries": [
+            {
+                "name": "North Korea",
+                "name_local": "Choson Minjujuui In´min Konghwaguk (Bukhan)",
+                "code": "KP"
+            },
+            {
+                "name": "South Korea",
+                "name_local": "대한민국 / 大韓民國",
+                "code": "KR"
+            }
+        ]
+    },
+    {
+        "name": "Kunama",
+        "name_local": "Kunama",
+        "iso_639_1": "",
+        "iso_639_2": "kun",
+        "iso_639_3": "",
+        "countries": [
+            {
+                "name": "Eritrea",
+                "name_local": "ኤርትራ Ertra / إرتريا Iritriyyā",
+                "code": "ER"
+            }
+        ]
+    },
+    {
+        "name": "Kurdish",
+        "name_local": "Kurdî",
+        "iso_639_1": "ku",
+        "iso_639_2": "kur",
+        "iso_639_3": "kur",
+        "countries": [
+            {
+                "name": "Iraq",
+                "name_local": "جمهورية العراق / Al-´Iraq",
+                "code": "IQ"
+            }
+        ]
+    },
+    {
+        "name": "Lao",
+        "name_local": "ພາສາລາວ",
+        "iso_639_1": "lo",
+        "iso_639_2": "lao",
+        "iso_639_3": "lao",
+        "countries": [
+            {
+                "name": "Laos",
+                "name_local": "Lao",
+                "code": "LA"
+            }
+        ]
+    },
+    {
+        "name": "Latin",
+        "name_local": "latine",
+        "iso_639_1": "la",
+        "iso_639_2": "lat",
+        "iso_639_3": "lat",
+        "countries": [
+            {
+                "name": "Vatican City",
+                "name_local": "Vaticanæ / Santa Sede / Città del Vaticano",
+                "code": "VA"
+            }
+        ]
+    },
+    {
+        "name": "Latvian",
+        "name_local": "latviešu valoda",
+        "iso_639_1": "lv",
+        "iso_639_2": "lav",
+        "iso_639_3": "lav",
+        "countries": [
+            {
+                "name": "Latvia",
+                "name_local": "Latvija",
+                "code": "LV"
+            }
+        ]
+    },
+    {
+        "name": "Lingala",
+        "name_local": "Lingála",
+        "iso_639_1": "ln",
+        "iso_639_2": "lin",
+        "iso_639_3": "lin",
+        "countries": [
+            {
+                "name": "Democratic Republic of the Congo",
+                "name_local": "République Démocratique du Congo",
+                "code": "CD"
+            },
+            {
+                "name": "Republic of the Congo",
+                "name_local": "Congo",
+                "code": "CG"
+            }
+        ]
+    },
+    {
+        "name": "Lithuanian",
+        "name_local": "lietuvių kalba",
+        "iso_639_1": "lt",
+        "iso_639_2": "lit",
+        "iso_639_3": "lit",
+        "countries": [
+            {
+                "name": "Lithuania",
+                "name_local": "Lietuva",
+                "code": "LT"
+            }
+        ]
+    },
+    {
+        "name": "Luxembourgish",
+        "name_local": "Lëtzebuergesch",
+        "iso_639_1": "lb",
+        "iso_639_2": "ltz",
+        "iso_639_3": "ltz",
+        "countries": [
+            {
+                "name": "Luxembourg",
+                "name_local": "Luxembourg/Lëtzebuerg",
+                "code": "LU"
+            }
+        ]
+    },
+    {
+        "name": "Luba-Katanga",
+        "name_local": "Tshiluba",
+        "iso_639_1": "lu",
+        "iso_639_2": "lub",
+        "iso_639_3": "lub",
+        "countries": [
+            {
+                "name": "Democratic Republic of the Congo",
+                "name_local": "République Démocratique du Congo",
+                "code": "CD"
+            }
+        ]
+    },
+    {
+        "name": "Marshallese",
+        "name_local": "Kajin M̧ajeļ",
+        "iso_639_1": "mh",
+        "iso_639_2": "mah",
+        "iso_639_3": "mah",
+        "countries": [
+            {
+                "name": "Marshall Islands",
+                "name_local": "Marshall Islands/Majol",
+                "code": "MH"
+            }
+        ]
+    },
+    {
+        "name": "Macedonian",
+        "name_local": "македонски јазик",
+        "iso_639_1": "mk",
+        "iso_639_2": "mkd",
+        "iso_639_3": "mkd",
+        "countries": [
+            {
+                "name": "North Macedonia",
+                "name_local": "Северна Македонија / Maqedonisë së Veriut",
+                "code": "MK"
+            }
+        ]
+    },
+    {
+        "name": "Malagasy",
+        "name_local": "fiteny malagasy",
+        "iso_639_1": "mg",
+        "iso_639_2": "mlg",
+        "iso_639_3": "mlg",
+        "countries": [
+            {
+                "name": "Madagascar",
+                "name_local": "Madagasikara/Madagascar",
+                "code": "MG"
+            }
+        ]
+    },
+    {
+        "name": "Maltese",
+        "name_local": "Malti",
+        "iso_639_1": "mt",
+        "iso_639_2": "mlt",
+        "iso_639_3": "mlt",
+        "countries": [
+            {
+                "name": "Malta",
+                "name_local": "Malta",
+                "code": "MT"
+            }
+        ]
+    },
+    {
+        "name": "Mongolian",
+        "name_local": "Монгол хэл",
+        "iso_639_1": "mn",
+        "iso_639_2": "mon",
+        "iso_639_3": "mon",
+        "countries": [
+            {
+                "name": "Mongolia",
+                "name_local": "Mongol Uls",
+                "code": "MN"
+            }
+        ]
+    },
+    {
+        "name": "Māori",
+        "name_local": "te reo Māori",
+        "iso_639_1": "mi",
+        "iso_639_2": "mri",
+        "iso_639_3": "mri",
+        "countries": [
+            {
+                "name": "New Zealand",
+                "name_local": "New Zealand/Aotearoa",
+                "code": "NZ"
+            }
+        ]
+    },
+    {
+        "name": "Malay",
+        "name_local": "bahasa Melayu",
+        "iso_639_1": "ms",
+        "iso_639_2": "msa",
+        "iso_639_3": "msa",
+        "countries": [
+            {
+                "name": "Brunei",
+                "name_local": "نݢارا بروني دار السلام",
+                "code": "BN"
+            },
+            {
+                "name": "Singapore",
+                "name_local": "Singapore / Singapura / 新加坡共和国 / சிங்கப்பூர்",
+                "code": "SG"
+            }
+        ]
+    },
+    {
+        "name": "Burmese",
+        "name_local": "ဗမာစာ",
+        "iso_639_1": "my",
+        "iso_639_2": "mya",
+        "iso_639_3": "mya",
+        "countries": [
+            {
+                "name": "Myanmar",
+                "name_local": "Myanma Pye",
+                "code": "MM"
+            }
+        ]
+    },
+    {
+        "name": "Nauruan",
+        "name_local": "Dorerin Naoero",
+        "iso_639_1": "na",
+        "iso_639_2": "nau",
+        "iso_639_3": "nau",
+        "countries": [
+            {
+                "name": "Nauru",
+                "name_local": "Naoero/Nauru",
+                "code": "NR"
+            }
+        ]
+    },
+    {
+        "name": "Southern Ndebele",
+        "name_local": "isiNdebele",
+        "iso_639_1": "nr",
+        "iso_639_2": "nbl",
+        "iso_639_3": "nbl",
+        "countries": [
+            {
+                "name": "South Africa",
+                "name_local": "Suid-Afrika / South Africa / Sewula Afrika",
+                "code": "ZA"
+            }
+        ]
+    },
+    {
+        "name": "Northern Ndebele",
+        "name_local": "isiNdebele",
+        "iso_639_1": "nd",
+        "iso_639_2": "nde",
+        "iso_639_3": "nde",
+        "countries": [
+            {
+                "name": "Zimbabwe",
+                "name_local": "Zimbabwe",
+                "code": "ZW"
+            }
+        ]
+    },
+    {
+        "name": "Nepali",
+        "name_local": "नेपाली",
+        "iso_639_1": "ne",
+        "iso_639_2": "nep",
+        "iso_639_3": "nep",
+        "countries": [
+            {
+                "name": "Nepal",
+                "name_local": "Nepal",
+                "code": "NP"
+            }
+        ]
+    },
+    {
+        "name": "Dutch",
+        "name_local": "Nederlands",
+        "iso_639_1": "nl",
+        "iso_639_2": "nld",
+        "iso_639_3": "nld",
+        "countries": [
+            {
+                "name": "Aruba",
+                "name_local": "Aruba",
+                "code": "AW"
+            },
+            {
+                "name": "Belgium",
+                "name_local": "België / Belgique",
+                "code": "BE"
+            },
+            {
+                "name": "Curacao",
+                "name_local": "Curaçao / Kòrsou",
+                "code": "CW"
+            },
+            {
+                "name": "Caribbean Netherlands",
+                "name_local": "Caribisch Nederland",
+                "code": "BQ"
+            },
+            {
+                "name": "Netherlands",
+                "name_local": "Nederland",
+                "code": "NL"
+            },
+            {
+                "name": "Saint Martin",
+                "name_local": "Saint Martin",
+                "code": "MF"
+            },
+            {
+                "name": "Sint Maarten",
+                "name_local": "Sint Maarten",
+                "code": "SX"
+            },
+            {
+                "name": "Suriname",
+                "name_local": "Suriname",
+                "code": "SR"
+            }
+        ]
+    },
+    {
+        "name": "Norwegian Nynorsk",
+        "name_local": "Norsk nynorsk",
+        "iso_639_1": "nn",
+        "iso_639_2": "nno",
+        "iso_639_3": "nno",
+        "countries": [
+            {
+                "name": "Bouvet Island",
+                "name_local": "Bouvetøya",
+                "code": "BV"
+            },
+            {
+                "name": "Norway",
+                "name_local": "Norge",
+                "code": "NO"
+            }
+        ]
+    },
+    {
+        "name": "Norwegian Bokmål",
+        "name_local": "Norsk bokmål",
+        "iso_639_1": "nb",
+        "iso_639_2": "nob",
+        "iso_639_3": "nob",
+        "countries": [
+            {
+                "name": "Bouvet Island",
+                "name_local": "Bouvetøya",
+                "code": "BV"
+            },
+            {
+                "name": "Norway",
+                "name_local": "Norge",
+                "code": "NO"
+            }
+        ]
+    },
+    {
+        "name": "Norwegian",
+        "name_local": "Norsk",
+        "iso_639_1": "no",
+        "iso_639_2": "nor",
+        "iso_639_3": "nor",
+        "countries": [
+            {
+                "name": "Bouvet Island",
+                "name_local": "Bouvetøya",
+                "code": "BV"
+            },
+            {
+                "name": "Norway",
+                "name_local": "Norge",
+                "code": "NO"
+            },
+            {
+                "name": "Svalbard",
+                "name_local": "Svalbard og Jan Mayen",
+                "code": "SJ"
+            }
+        ]
+    },
+    {
+        "name": "Nara",
+        "name_local": "Nara",
+        "iso_639_1": "",
+        "iso_639_2": "nrb",
+        "iso_639_3": "",
+        "countries": [
+            {
+                "name": "Eritrea",
+                "name_local": "ኤርትራ Ertra / إرتريا Iritriyyā",
+                "code": "ER"
+            }
+        ]
+    },
+    {
+        "name": "Chichewa",
+        "name_local": "chiCheŵa",
+        "iso_639_1": "ny",
+        "iso_639_2": "nya",
+        "iso_639_3": "nya",
+        "countries": [
+            {
+                "name": "Malawi",
+                "name_local": "Malawi",
+                "code": "MW"
+            }
+        ]
+    },
+    {
+        "name": "(Eastern) Punjabi",
+        "name_local": "ਪੰਜਾਬੀ",
+        "iso_639_1": "pa",
+        "iso_639_2": "pan",
+        "iso_639_3": "pan",
+        "countries": [
+            {
+                "name": "Aruba",
+                "name_local": "Aruba",
+                "code": "AW"
+            },
+            {
+                "name": "Curacao",
+                "name_local": "Curaçao / Kòrsou",
+                "code": "CW"
+            }
+        ]
+    },
+    {
+        "name": "Polish",
+        "name_local": "polski",
+        "iso_639_1": "pl",
+        "iso_639_2": "pol",
+        "iso_639_3": "pol",
+        "countries": [
+            {
+                "name": "Poland",
+                "name_local": "Polska",
+                "code": "PL"
+            }
+        ]
+    },
+    {
+        "name": "Portuguese",
+        "name_local": "Português",
+        "iso_639_1": "pt",
+        "iso_639_2": "por",
+        "iso_639_3": "por",
+        "countries": [
+            {
+                "name": "Angola",
+                "name_local": "Ngola",
+                "code": "AO"
+            },
+            {
+                "name": "Equatorial Guinea",
+                "name_local": "Guinea Ecuatorial",
+                "code": "GQ"
+            },
+            {
+                "name": "Brazil",
+                "name_local": "Brasil",
+                "code": "BR"
+            },
+            {
+                "name": "Guinea-Bissau",
+                "name_local": "Guiné-Bissau",
+                "code": "GW"
+            },
+            {
+                "name": "Cape Verde",
+                "name_local": "Cabo Verde",
+                "code": "CV"
+            },
+            {
+                "name": "Macao",
+                "name_local": "Macau, Aomen",
+                "code": "MO"
+            },
+            {
+                "name": "Mozambique",
+                "name_local": "Moçambique",
+                "code": "MZ"
+            },
+            {
+                "name": "East Timor",
+                "name_local": "Timor Timur",
+                "code": "TL"
+            },
+            {
+                "name": "Portugal",
+                "name_local": "Portugal",
+                "code": "PT"
+            },
+            {
+                "name": "Sao Tome and Principe",
+                "name_local": "São Tomé e Príncipe",
+                "code": "ST"
+            }
+        ]
+    },
+    {
+        "name": "Pashto",
+        "name_local": "پښتو",
+        "iso_639_1": "ps",
+        "iso_639_2": "pus",
+        "iso_639_3": "pus",
+        "countries": [
+            {
+                "name": "Afghanistan",
+                "name_local": "افغانستان Afghānestān",
+                "code": "AF"
+            }
+        ]
+    },
+    {
+        "name": "Quechua",
+        "name_local": "Runa Simi",
+        "iso_639_1": "qu",
+        "iso_639_2": "que",
+        "iso_639_3": "que",
+        "countries": [
+            {
+                "name": "Bolivia",
+                "name_local": "Bolivia",
+                "code": "BO"
+            }
+        ]
+    },
+    {
+        "name": "Cook Islands Māori",
+        "name_local": "Māori",
+        "iso_639_1": "",
+        "iso_639_2": "rar",
+        "iso_639_3": "",
+        "countries": [
+            {
+                "name": "Cook Islands",
+                "name_local": "Cook Islands / Kūki 'Āirani",
+                "code": "CK"
+            }
+        ]
+    },
+    {
+        "name": "Romansh",
+        "name_local": "Rumantsch",
+        "iso_639_1": "rm",
+        "iso_639_2": "roh",
+        "iso_639_3": "roh",
+        "countries": [
+            {
+                "name": "Switzerland",
+                "name_local": "Schweiz / Suisse / Svizzera / Svizra",
+                "code": "CH"
+            }
+        ]
+    },
+    {
+        "name": "Romanian",
+        "name_local": "Română",
+        "iso_639_1": "ro",
+        "iso_639_2": "ron",
+        "iso_639_3": "ron",
+        "countries": [
+            {
+                "name": "Moldova",
+                "name_local": "Moldova",
+                "code": "MD"
+            },
+            {
+                "name": "Romania",
+                "name_local": "România",
+                "code": "RO"
+            }
+        ]
+    },
+    {
+        "name": "Rotuman",
+        "name_local": "Fäeag Rotuma",
+        "iso_639_1": "",
+        "iso_639_2": "rtm",
+        "iso_639_3": "",
+        "countries": [
+            {
+                "name": "Fiji",
+                "name_local": "Viti / फ़िजी गणराज्य / Fiji",
+                "code": "FJ"
+            }
+        ]
+    },
+    {
+        "name": "Kirundi",
+        "name_local": "Ikirundi",
+        "iso_639_1": "rn",
+        "iso_639_2": "run",
+        "iso_639_3": "run",
+        "countries": [
+            {
+                "name": "Burundi",
+                "name_local": "Burundi / Uburundi",
+                "code": "BI"
+            }
+        ]
+    },
+    {
+        "name": "Russian",
+        "name_local": "Русский",
+        "iso_639_1": "ru",
+        "iso_639_2": "rus",
+        "iso_639_3": "rus",
+        "countries": [
+            {
+                "name": "Antarctica",
+                "name_local": "",
+                "code": "AQ"
+            },
+            {
+                "name": "Belarus",
+                "name_local": "Беларусь",
+                "code": "BY"
+            },
+            {
+                "name": "Kazakhstan",
+                "name_local": "Қазақстан /  Qazaqstan",
+                "code": "KZ"
+            },
+            {
+                "name": "Kyrgyzstan",
+                "name_local": "Кыргызстан / Kyrgyzstan",
+                "code": "KG"
+            },
+            {
+                "name": "Russia",
+                "name_local": "Россия / Rossija",
+                "code": "RU"
+            },
+            {
+                "name": "Tajikistan",
+                "name_local": "Toçikiston / Тоҷикистон",
+                "code": "TJ"
+            },
+            {
+                "name": "Turkmenistan",
+                "name_local": "Türkmenostan",
+                "code": "TM"
+            },
+            {
+                "name": "Uzbekistan",
+                "name_local": "Oʻzbekiston",
+                "code": "UZ"
+            }
+        ]
+    },
+    {
+        "name": "Sango",
+        "name_local": "yângâ tî sängö",
+        "iso_639_1": "sg",
+        "iso_639_2": "sag",
+        "iso_639_3": "sag",
+        "countries": [
+            {
+                "name": "Central African Republic",
+                "name_local": "Centrafrique / Bê-Afrîka",
+                "code": "CF"
+            }
+        ]
+    },
+    {
+        "name": "Sinhalese",
+        "name_local": "සිංහල",
+        "iso_639_1": "si",
+        "iso_639_2": "sin",
+        "iso_639_3": "sin",
+        "countries": [
+            {
+                "name": "Sri Lanka",
+                "name_local": "ශ්‍රී ලංකා / இலங்கை",
+                "code": "LK"
+            }
+        ]
+    },
+    {
+        "name": "Slovak",
+        "name_local": "slovenčina",
+        "iso_639_1": "sk",
+        "iso_639_2": "slk",
+        "iso_639_3": "slk",
+        "countries": [
+            {
+                "name": "Slovakia",
+                "name_local": "Slovensko",
+                "code": "SK"
+            },
+            {
+                "name": "Czechia",
+                "name_local": "Česko, Česká republika",
+                "code": "CZ"
+            }
+        ]
+    },
+    {
+        "name": "Slovene",
+        "name_local": "slovenski jezik",
+        "iso_639_1": "sl",
+        "iso_639_2": "slv",
+        "iso_639_3": "slv",
+        "countries": [
+            {
+                "name": "Slovenia",
+                "name_local": "Slovenija",
+                "code": "SI"
+            }
+        ]
+    },
+    {
+        "name": "Samoan",
+        "name_local": "gagana fa'a Samoa",
+        "iso_639_1": "sm",
+        "iso_639_2": "smo",
+        "iso_639_3": "smo",
+        "countries": [
+            {
+                "name": "American Samoa",
+                "name_local": "Sāmoa Amelika",
+                "code": "AS"
+            },
+            {
+                "name": "Samoa",
+                "name_local": "Sāmoa",
+                "code": "WS"
+            }
+        ]
+    },
+    {
+        "name": "Shona",
+        "name_local": "chiShona",
+        "iso_639_1": "sn",
+        "iso_639_2": "sna",
+        "iso_639_3": "sna",
+        "countries": [
+            {
+                "name": "Zimbabwe",
+                "name_local": "Zimbabwe",
+                "code": "ZW"
+            }
+        ]
+    },
+    {
+        "name": "Somali",
+        "name_local": "Soomaaliga",
+        "iso_639_1": "so",
+        "iso_639_2": "som",
+        "iso_639_3": "som",
+        "countries": [
+            {
+                "name": "Somalia",
+                "name_local": "Soomaaliya / Somalia / الصومال",
+                "code": "SO"
+            }
+        ]
+    },
+    {
+        "name": "Southern Sotho",
+        "name_local": "Sesotho",
+        "iso_639_1": "st",
+        "iso_639_2": "sot",
+        "iso_639_3": "sot",
+        "countries": [
+            {
+                "name": "Lesotho",
+                "name_local": "Lesotho",
+                "code": "LS"
+            },
+            {
+                "name": "South Africa",
+                "name_local": "Suid-Afrika / South Africa / Sewula Afrika",
+                "code": "ZA"
+            }
+        ]
+    },
+    {
+        "name": "Spanish",
+        "name_local": "Español",
+        "iso_639_1": "es",
+        "iso_639_2": "spa",
+        "iso_639_3": "spa",
+        "countries": [
+            {
+                "name": "Equatorial Guinea",
+                "name_local": "Guinea Ecuatorial",
+                "code": "GQ"
+            },
+            {
+                "name": "Argentina",
+                "name_local": "Argentina",
+                "code": "AR"
+            },
+            {
+                "name": "Belize",
+                "name_local": "Belize",
+                "code": "BZ"
+            },
+            {
+                "name": "Bolivia",
+                "name_local": "Bolivia",
+                "code": "BO"
+            },
+            {
+                "name": "Chile",
+                "name_local": "Chile",
+                "code": "CL"
+            },
+            {
+                "name": "Costa Rica",
+                "name_local": "Costa Rica",
+                "code": "CR"
+            },
+            {
+                "name": "Dominican Republic",
+                "name_local": "República Dominicana",
+                "code": "DO"
+            },
+            {
+                "name": "Ecuador",
+                "name_local": "Ecuador",
+                "code": "EC"
+            },
+            {
+                "name": "El Salvador",
+                "name_local": "El Salvador",
+                "code": "SV"
+            },
+            {
+                "name": "Guam",
+                "name_local": "Guam",
+                "code": "GU"
+            },
+            {
+                "name": "Guatemala",
+                "name_local": "República de Guatemala",
+                "code": "GT"
+            },
+            {
+                "name": "Honduras",
+                "name_local": "Honduras",
+                "code": "HN"
+            },
+            {
+                "name": "Colombia",
+                "name_local": "Colombia",
+                "code": "CO"
+            },
+            {
+                "name": "Cuba",
+                "name_local": "Cuba",
+                "code": "CU"
+            },
+            {
+                "name": "Mexico",
+                "name_local": "México",
+                "code": "MX"
+            },
+            {
+                "name": "Nicaragua",
+                "name_local": "Nicaragua",
+                "code": "NI"
+            },
+            {
+                "name": "Panama",
+                "name_local": "Panamá",
+                "code": "PA"
+            },
+            {
+                "name": "Paraguay",
+                "name_local": "Paraguay",
+                "code": "PY"
+            },
+            {
+                "name": "Peru",
+                "name_local": "Perú/Piruw",
+                "code": "PE"
+            },
+            {
+                "name": "Puerto Rico",
+                "name_local": "Puerto Rico",
+                "code": "PR"
+            },
+            {
+                "name": "Spain",
+                "name_local": "España",
+                "code": "ES"
+            },
+            {
+                "name": "Uruguay",
+                "name_local": "Uruguay",
+                "code": "UY"
+            },
+            {
+                "name": "Venezuela",
+                "name_local": "Venezuela",
+                "code": "VE"
+            },
+            {
+                "name": "Western Sahara",
+                "name_local": "الصحراء الغربية / aṣ-Ṣaḥrāʾ al-Ġarbiyya",
+                "code": "EH"
+            }
+        ]
+    },
+    {
+        "name": "Albanian",
+        "name_local": "Shqip",
+        "iso_639_1": "sq",
+        "iso_639_2": "sqi",
+        "iso_639_3": "sqi",
+        "countries": [
+            {
+                "name": "Albania",
+                "name_local": "Republika e Shqipërisë",
+                "code": "AL"
+            },
+            {
+                "name": "Kosovo",
+                "name_local": "Kosova",
+                "code": "XK"
+            },
+            {
+                "name": "Montenegro",
+                "name_local": "Црна Гора / Crna Gora / Mali i Zi",
+                "code": "ME"
+            }
+        ]
+    },
+    {
+        "name": "Serbian",
+        "name_local": "српски језик",
+        "iso_639_1": "sr",
+        "iso_639_2": "srp",
+        "iso_639_3": "srp",
+        "countries": [
+            {
+                "name": "Bosnia and Herzegovina",
+                "name_local": "Bosna i Hercegovina / Босна и Херцеговина",
+                "code": "BA"
+            },
+            {
+                "name": "Kosovo",
+                "name_local": "Kosova",
+                "code": "XK"
+            },
+            {
+                "name": "Montenegro",
+                "name_local": "Црна Гора / Crna Gora / Mali i Zi",
+                "code": "ME"
+            },
+            {
+                "name": "Serbia",
+                "name_local": "Србија Srbija",
+                "code": "RS"
+            }
+        ]
+    },
+    {
+        "name": "Swati",
+        "name_local": "SiSwati",
+        "iso_639_1": "ss",
+        "iso_639_2": "ssw",
+        "iso_639_3": "ssw",
+        "countries": [
+            {
+                "name": "Eswatini",
+                "name_local": "Umbuso weSwatini",
+                "code": "SZ"
+            },
+            {
+                "name": "South Africa",
+                "name_local": "Suid-Afrika / South Africa / Sewula Afrika",
+                "code": "ZA"
+            }
+        ]
+    },
+    {
+        "name": "Saho",
+        "name_local": "Saho",
+        "iso_639_1": "",
+        "iso_639_2": "ssy",
+        "iso_639_3": "",
+        "countries": [
+            {
+                "name": "Eritrea",
+                "name_local": "ኤርትራ Ertra / إرتريا Iritriyyā",
+                "code": "ER"
+            }
+        ]
+    },
+    {
+        "name": "Swahili",
+        "name_local": "Kiswahili",
+        "iso_639_1": "sw",
+        "iso_639_2": "swa",
+        "iso_639_3": "swa",
+        "countries": [
+            {
+                "name": "Democratic Republic of the Congo",
+                "name_local": "République Démocratique du Congo",
+                "code": "CD"
+            },
+            {
+                "name": "Kenya",
+                "name_local": "Kenya",
+                "code": "KE"
+            },
+            {
+                "name": "Tanzania",
+                "name_local": "Tanzania",
+                "code": "TZ"
+            },
+            {
+                "name": "Uganda",
+                "name_local": "Uganda",
+                "code": "UG"
+            }
+        ]
+    },
+    {
+        "name": "Swedish",
+        "name_local": "svenska",
+        "iso_639_1": "sv",
+        "iso_639_2": "swe",
+        "iso_639_3": "swe",
+        "countries": [
+            {
+                "name": "Åland Islands",
+                "name_local": "Ahvenanmaa",
+                "code": "AX"
+            },
+            {
+                "name": "Finland",
+                "name_local": "Suomi",
+                "code": "FI"
+            },
+            {
+                "name": "Sweden",
+                "name_local": "Sverige",
+                "code": "SE"
+            }
+        ]
+    },
+    {
+        "name": "Tamil",
+        "name_local": "தமிழ்",
+        "iso_639_1": "ta",
+        "iso_639_2": "tam",
+        "iso_639_3": "tam",
+        "countries": [
+            {
+                "name": "Singapore",
+                "name_local": "Singapore / Singapura / 新加坡共和国 / சிங்கப்பூர்",
+                "code": "SG"
+            },
+            {
+                "name": "Sri Lanka",
+                "name_local": "ශ්‍රී ලංකා / இலங்கை",
+                "code": "LK"
+            }
+        ]
+    },
+    {
+        "name": "Tajik",
+        "name_local": "тоҷикӣ",
+        "iso_639_1": "tg",
+        "iso_639_2": "tgk",
+        "iso_639_3": "tgk",
+        "countries": [
+            {
+                "name": "Tajikistan",
+                "name_local": "Toçikiston / Тоҷикистон",
+                "code": "TJ"
+            }
+        ]
+    },
+    {
+        "name": "Thai",
+        "name_local": "ไทย",
+        "iso_639_1": "th",
+        "iso_639_2": "tha",
+        "iso_639_3": "tha",
+        "countries": [
+            {
+                "name": "Thailand",
+                "name_local": "Prathet Thai / ประเทศไทย",
+                "code": "TH"
+            }
+        ]
+    },
+    {
+        "name": "Tigre",
+        "name_local": "ትግረ",
+        "iso_639_1": "",
+        "iso_639_2": "tig",
+        "iso_639_3": "",
+        "countries": [
+            {
+                "name": "Eritrea",
+                "name_local": "ኤርትራ Ertra / إرتريا Iritriyyā",
+                "code": "ER"
+            }
+        ]
+    },
+    {
+        "name": "Tigrinya",
+        "name_local": "ትግርኛ",
+        "iso_639_1": "ti",
+        "iso_639_2": "tir",
+        "iso_639_3": "tir",
+        "countries": [
+            {
+                "name": "Eritrea",
+                "name_local": "ኤርትራ Ertra / إرتريا Iritriyyā",
+                "code": "ER"
+            }
+        ]
+    },
+    {
+        "name": "Tonga (Tonga Islands)",
+        "name_local": "faka Tonga",
+        "iso_639_1": "to",
+        "iso_639_2": "ton",
+        "iso_639_3": "ton",
+        "countries": [
+            {
+                "name": "Tonga",
+                "name_local": "Puleʻanga Fakatuʻi ʻo Tonga",
+                "code": "TO"
+            }
+        ]
+    },
+    {
+        "name": "Tswana",
+        "name_local": "Setswana",
+        "iso_639_1": "tn",
+        "iso_639_2": "tsn",
+        "iso_639_3": "tsn",
+        "countries": [
+            {
+                "name": "Botswana",
+                "name_local": "Botswana",
+                "code": "BW"
+            },
+            {
+                "name": "South Africa",
+                "name_local": "Suid-Afrika / South Africa / Sewula Afrika",
+                "code": "ZA"
+            }
+        ]
+    },
+    {
+        "name": "Tsonga",
+        "name_local": "Xitsonga",
+        "iso_639_1": "ts",
+        "iso_639_2": "tso",
+        "iso_639_3": "tso",
+        "countries": [
+            {
+                "name": "South Africa",
+                "name_local": "Suid-Afrika / South Africa / Sewula Afrika",
+                "code": "ZA"
+            }
+        ]
+    },
+    {
+        "name": "Turkmen",
+        "name_local": "Türkmen",
+        "iso_639_1": "tk",
+        "iso_639_2": "tuk",
+        "iso_639_3": "tuk",
+        "countries": [
+            {
+                "name": "Afghanistan",
+                "name_local": "افغانستان Afghānestān",
+                "code": "AF"
+            },
+            {
+                "name": "Turkmenistan",
+                "name_local": "Türkmenostan",
+                "code": "TM"
+            }
+        ]
+    },
+    {
+        "name": "Turkish",
+        "name_local": "Türkçe",
+        "iso_639_1": "tr",
+        "iso_639_2": "tur",
+        "iso_639_3": "tur",
+        "countries": [
+            {
+                "name": "Turkey",
+                "name_local": "Türkiye Cumhuriyeti",
+                "code": "TR"
+            },
+            {
+                "name": "Cyprus",
+                "name_local": "Κύπρος / Kypros / Kıbrıs",
+                "code": "CY"
+            }
+        ]
+    },
+    {
+        "name": "Ukrainian",
+        "name_local": "Українська",
+        "iso_639_1": "uk",
+        "iso_639_2": "ukr",
+        "iso_639_3": "ukr",
+        "countries": [
+            {
+                "name": "Ukraine",
+                "name_local": "Ukrajina / Україна",
+                "code": "UA"
+            }
+        ]
+    },
+    {
+        "name": "Urdu",
+        "name_local": "اردو",
+        "iso_639_1": "ur",
+        "iso_639_2": "urd",
+        "iso_639_3": "urd",
+        "countries": [
+            {
+                "name": "Pakistan",
+                "name_local": "Pakistan",
+                "code": "PK"
+            }
+        ]
+    },
+    {
+        "name": "Uzbek",
+        "name_local": "Oʻzbek",
+        "iso_639_1": "uz",
+        "iso_639_2": "uzb",
+        "iso_639_3": "uzb",
+        "countries": [
+            {
+                "name": "Afghanistan",
+                "name_local": "افغانستان Afghānestān",
+                "code": "AF"
+            },
+            {
+                "name": "Uzbekistan",
+                "name_local": "Oʻzbekiston",
+                "code": "UZ"
+            }
+        ]
+    },
+    {
+        "name": "Venda",
+        "name_local": "Tshivenḓa",
+        "iso_639_1": "ve",
+        "iso_639_2": "ven",
+        "iso_639_3": "ven",
+        "countries": [
+            {
+                "name": "South Africa",
+                "name_local": "Suid-Afrika / South Africa / Sewula Afrika",
+                "code": "ZA"
+            }
+        ]
+    },
+    {
+        "name": "Vietnamese",
+        "name_local": "Tiếng Việt",
+        "iso_639_1": "vi",
+        "iso_639_2": "vie",
+        "iso_639_3": "vie",
+        "countries": [
+            {
+                "name": "Vietnam",
+                "name_local": "Viêt Nam",
+                "code": "VN"
+            }
+        ]
+    },
+    {
+        "name": "Xhosa",
+        "name_local": "isiXhosa",
+        "iso_639_1": "xh",
+        "iso_639_2": "xho",
+        "iso_639_3": "xho",
+        "countries": [
+            {
+                "name": "South Africa",
+                "name_local": "Suid-Afrika / South Africa / Sewula Afrika",
+                "code": "ZA"
+            }
+        ]
+    },
+    {
+        "name": "Chinese",
+        "name_local": "中文 (Zhōngwén)",
+        "iso_639_1": "zh",
+        "iso_639_2": "zho",
+        "iso_639_3": "zho",
+        "countries": [
+            {
+                "name": "China",
+                "name_local": "中國 / 中国 / Zhōngguó",
+                "code": "CN"
+            },
+            {
+                "name": "Hong Kong",
+                "name_local": "香港 / Xiānggǎng",
+                "code": "HK"
+            },
+            {
+                "name": "Macao",
+                "name_local": "Macau, Aomen",
+                "code": "MO"
+            },
+            {
+                "name": "Singapore",
+                "name_local": "Singapore / Singapura / 新加坡共和国 / சிங்கப்பூர்",
+                "code": "SG"
+            },
+            {
+                "name": "Taiwan",
+                "name_local": "中華民國 / T’ai-wan",
+                "code": "TW"
+            }
+        ]
+    },
+    {
+        "name": "Malaysian",
+        "name_local": "بهاس مليسيا",
+        "iso_639_1": "ms",
+        "iso_639_2": "zsm",
+        "iso_639_3": "msa",
+        "countries": [
+            {
+                "name": "Malaysia",
+                "name_local": "Malaysia",
+                "code": "MY"
+            }
+        ]
+    },
+    {
+        "name": "Zulu",
+        "name_local": "isiZulu",
+        "iso_639_1": "zu",
+        "iso_639_2": "zul",
+        "iso_639_3": "zul",
+        "countries": [
+            {
+                "name": "South Africa",
+                "name_local": "Suid-Afrika / South Africa / Sewula Afrika",
+                "code": "ZA"
+            }
+        ]
+    }
+]
